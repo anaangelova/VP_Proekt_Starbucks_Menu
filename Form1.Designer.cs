@@ -38,13 +38,16 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.order = new System.Windows.Forms.GroupBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.pbDessert = new System.Windows.Forms.PictureBox();
             this.pbSand = new System.Windows.Forms.PictureBox();
             this.pbColdDrinks = new System.Windows.Forms.PictureBox();
             this.pbFrapp = new System.Windows.Forms.PictureBox();
             this.pbColdCoffee = new System.Windows.Forms.PictureBox();
             this.pbHotCoffee = new System.Windows.Forms.PictureBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.tbTotal = new System.Windows.Forms.TextBox();
+            this.btnPay = new System.Windows.Forms.Button();
             this.order.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbDessert)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbSand)).BeginInit();
@@ -160,13 +163,26 @@
             // 
             // order
             // 
+            this.order.Controls.Add(this.btnPay);
+            this.order.Controls.Add(this.tbTotal);
+            this.order.Controls.Add(this.label7);
             this.order.Controls.Add(this.listBox1);
-            this.order.Location = new System.Drawing.Point(665, 78);
+            this.order.Location = new System.Drawing.Point(637, 78);
             this.order.Name = "order";
-            this.order.Size = new System.Drawing.Size(200, 202);
+            this.order.Size = new System.Drawing.Size(228, 245);
             this.order.TabIndex = 15;
             this.order.TabStop = false;
             this.order.Text = "Total order";
+            // 
+            // listBox1
+            // 
+            this.listBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.ScrollBar;
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.HorizontalScrollbar = true;
+            this.listBox1.Location = new System.Drawing.Point(6, 19);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(216, 121);
+            this.listBox1.TabIndex = 0;
             // 
             // pbDessert
             // 
@@ -229,13 +245,31 @@
             this.pbHotCoffee.TabStop = false;
             this.pbHotCoffee.Click += new System.EventHandler(this.pbHotCoffee_Click);
             // 
-            // listBox1
+            // label7
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(28, 52);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 95);
-            this.listBox1.TabIndex = 0;
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(3, 157);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(60, 13);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Total price:";
+            // 
+            // tbTotal
+            // 
+            this.tbTotal.Enabled = false;
+            this.tbTotal.Location = new System.Drawing.Point(60, 154);
+            this.tbTotal.Name = "tbTotal";
+            this.tbTotal.Size = new System.Drawing.Size(100, 20);
+            this.tbTotal.TabIndex = 2;
+            // 
+            // btnPay
+            // 
+            this.btnPay.Location = new System.Drawing.Point(23, 200);
+            this.btnPay.Name = "btnPay";
+            this.btnPay.Size = new System.Drawing.Size(137, 23);
+            this.btnPay.TabIndex = 3;
+            this.btnPay.Text = "PAY NOW";
+            this.btnPay.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -262,6 +296,7 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.order.ResumeLayout(false);
+            this.order.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbDessert)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbSand)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbColdDrinks)).EndInit();
@@ -292,6 +327,9 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.GroupBox order;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.TextBox tbTotal;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button btnPay;
     }
 }
 

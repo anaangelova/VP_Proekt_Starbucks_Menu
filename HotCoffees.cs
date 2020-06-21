@@ -12,12 +12,15 @@ namespace VP_Proekt_Starbucks_Menu
 {
     public partial class HotCoffees : Form
     {
+
+        public List<Order> narachka { get; set; }
        
-        public Order narachka { get; set; }
         public HotCoffees()
         {
             InitializeComponent();
+            narachka = new List<Order>();
         }
+       
         private bool btnCoffeeC = false;
         private bool btnCappuccinoC = false;
         private bool btnLatteC = false;
@@ -45,17 +48,37 @@ namespace VP_Proekt_Starbucks_Menu
         {
             if(btnCappuccinoC)
             {
-                narachka = new Order(lblCappuccino.Text, nudCappuccino.Value.ToString());
+                float price = float.Parse(lblPriceCap.Text);
+                narachka.Add(new Order(lblCappuccino.Text, (int)nudCappuccino.Value,price));
+                
+               
             }
             if (btnCoffeeC)
             {
-                narachka= new Order(lblEspresso.Text, nudEspresso.Value.ToString());
+                float price = float.Parse(lblPriceEsp.Text);
+                narachka.Add(new Order(lblEspresso.Text, (int)nudEspresso.Value,price));
+                
             }
-            if(btnLatteC)
+            
+            if (changed && btnLatteC)
             {
-                    narachka = new Order(lblLatte.Text, nudLatte.Value.ToString());
+                comboBox1_SelectedIndexChanged(sender, e);
             }
             this.Close();
+        }
+
+        private void lblPrLatte_Click(object sender, EventArgs e)
+        {
+
+        }
+        bool changed = false;
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+                changed = true;
+                float price = float.Parse(lblPrLatte.Text);
+                narachka.Add(new Order(lblLatte.Text + " " + comboBox1.SelectedItem.ToString(), (int)nudLatte.Value, price));
+                btnLatteC = false;
+                changed = false;
         }
     }
 }

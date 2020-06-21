@@ -46,6 +46,12 @@
             this.btnCappuccino = new System.Windows.Forms.Button();
             this.btnLatte = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lblPriceCap = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lblPrLatte = new System.Windows.Forms.Label();
+            this.lblPriceEsp = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.nudEspresso)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudCappuccino)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -179,7 +185,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(372, 207);
+            this.label6.Location = new System.Drawing.Point(368, 210);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(45, 13);
             this.label6.TabIndex = 10;
@@ -188,7 +194,7 @@
             // comboBox1
             // 
             this.comboBox1.AllowDrop = true;
-            this.comboBox1.Enabled = false;
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Vanilla",
@@ -199,6 +205,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(112, 21);
             this.comboBox1.TabIndex = 11;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label7
             // 
@@ -233,7 +240,7 @@
             // 
             // btnEspresso
             // 
-            this.btnEspresso.Location = new System.Drawing.Point(16, 275);
+            this.btnEspresso.Location = new System.Drawing.Point(16, 291);
             this.btnEspresso.Name = "btnEspresso";
             this.btnEspresso.Size = new System.Drawing.Size(110, 20);
             this.btnEspresso.TabIndex = 14;
@@ -243,7 +250,7 @@
             // 
             // btnCappuccino
             // 
-            this.btnCappuccino.Location = new System.Drawing.Point(197, 275);
+            this.btnCappuccino.Location = new System.Drawing.Point(197, 291);
             this.btnCappuccino.Name = "btnCappuccino";
             this.btnCappuccino.Size = new System.Drawing.Size(110, 20);
             this.btnCappuccino.TabIndex = 15;
@@ -253,7 +260,7 @@
             // 
             // btnLatte
             // 
-            this.btnLatte.Location = new System.Drawing.Point(371, 275);
+            this.btnLatte.Location = new System.Drawing.Point(375, 291);
             this.btnLatte.Name = "btnLatte";
             this.btnLatte.Size = new System.Drawing.Size(110, 20);
             this.btnLatte.TabIndex = 16;
@@ -263,19 +270,80 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(197, 318);
+            this.btnClose.Location = new System.Drawing.Point(99, 331);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(110, 20);
+            this.btnClose.Size = new System.Drawing.Size(343, 20);
             this.btnClose.TabIndex = 17;
-            this.btnClose.Text = "Close";
+            this.btnClose.Text = "Finish Order";
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(13, 272);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(43, 13);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "Price: $";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(200, 275);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(43, 13);
+            this.label3.TabIndex = 20;
+            this.label3.Text = "Price: $";
+            // 
+            // lblPriceCap
+            // 
+            this.lblPriceCap.AutoSize = true;
+            this.lblPriceCap.Location = new System.Drawing.Point(240, 275);
+            this.lblPriceCap.Name = "lblPriceCap";
+            this.lblPriceCap.Size = new System.Drawing.Size(28, 13);
+            this.lblPriceCap.TabIndex = 21;
+            this.lblPriceCap.Text = "3,40";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(374, 275);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(43, 13);
+            this.label5.TabIndex = 22;
+            this.label5.Text = "Price: $";
+            // 
+            // lblPrLatte
+            // 
+            this.lblPrLatte.AutoSize = true;
+            this.lblPrLatte.Location = new System.Drawing.Point(414, 275);
+            this.lblPrLatte.Name = "lblPrLatte";
+            this.lblPrLatte.Size = new System.Drawing.Size(28, 13);
+            this.lblPrLatte.TabIndex = 23;
+            this.lblPrLatte.Text = "4,20";
+            this.lblPrLatte.Click += new System.EventHandler(this.lblPrLatte_Click);
+            // 
+            // lblPriceEsp
+            // 
+            this.lblPriceEsp.AutoSize = true;
+            this.lblPriceEsp.Location = new System.Drawing.Point(53, 272);
+            this.lblPriceEsp.Name = "lblPriceEsp";
+            this.lblPriceEsp.Size = new System.Drawing.Size(28, 13);
+            this.lblPriceEsp.TabIndex = 24;
+            this.lblPriceEsp.Text = "2,20";
             // 
             // HotCoffees
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(538, 363);
+            this.Controls.Add(this.lblPriceEsp);
+            this.Controls.Add(this.lblPrLatte);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lblPriceCap);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnLatte);
             this.Controls.Add(this.btnCappuccino);
@@ -327,5 +395,11 @@
         private System.Windows.Forms.Button btnCappuccino;
         private System.Windows.Forms.Button btnLatte;
         private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblPriceCap;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblPrLatte;
+        private System.Windows.Forms.Label lblPriceEsp;
     }
 }
