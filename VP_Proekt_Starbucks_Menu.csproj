@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frappuchino.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frappuchino.Designer.cs">
+      <DependentUpon>Frappuchino.cs</DependentUpon>
+    </Compile>
     <Compile Include="HotCoffees.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frappuchino.resx">
+      <DependentUpon>Frappuchino.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HotCoffees.resx">
       <DependentUpon>HotCoffees.cs</DependentUpon>
@@ -131,6 +140,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\latte.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\muffin2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frappChocolate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frappCaramel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FrappSmores.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FRAPPsMORESS.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

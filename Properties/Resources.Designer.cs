@@ -93,6 +93,46 @@ namespace VP_Proekt_Starbucks_Menu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap frappCaramel {
+            get {
+                object obj = ResourceManager.GetObject("frappCaramel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap frappChocolate {
+            get {
+                object obj = ResourceManager.GetObject("frappChocolate", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FrappSmores {
+            get {
+                object obj = ResourceManager.GetObject("FrappSmores", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FRAPPsMORESS {
+            get {
+                object obj = ResourceManager.GetObject("FRAPPsMORESS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap frappuccino {
             get {
                 object obj = ResourceManager.GetObject("frappuccino", resourceCulture);
@@ -166,6 +206,16 @@ namespace VP_Proekt_Starbucks_Menu.Properties {
         internal static System.Drawing.Bitmap muffin1 {
             get {
                 object obj = ResourceManager.GetObject("muffin1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap muffin2 {
+            get {
+                object obj = ResourceManager.GetObject("muffin2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

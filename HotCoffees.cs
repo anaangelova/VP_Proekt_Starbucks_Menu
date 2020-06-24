@@ -14,34 +14,62 @@ namespace VP_Proekt_Starbucks_Menu
     {
 
         public List<Order> narachka { get; set; }
-       
+        
         public HotCoffees()
         {
             InitializeComponent();
             narachka = new List<Order>();
+            cbSizeCapp.SelectedIndex = 0;
+            cbSizeEsp.SelectedIndex = 0;
+            cbSizeLatte.SelectedIndex = 0;
+            
         }
-       
+
         private bool btnCoffeeC = false;
         private bool btnCappuccinoC = false;
         private bool btnLatteC = false;
         private void btnHotCoffee_Click(object sender, EventArgs e)
         {
             btnCoffeeC = true;
-           // narachka = new Order(lblEspresso.Text, nudEspresso.Value.ToString());
-           
+            
+            string notification = "You successfully ordered " + lblEspresso.Text + " "+cbSizeEsp.SelectedItem.ToString()+ "! Quantity: " + nudEspresso.Value.ToString();
+            MessageBoxButtons buttons = MessageBoxButtons.OK;
+            string caption = "Order successful!";
+            MessageBox.Show(notification, caption, buttons);
+
         }
+        
 
 
         private void btnCappuccino_Click(object sender, EventArgs e)
         {
             btnCappuccinoC = true;
-           // narachka = new Order(lblCappuccino.Text, nudCappuccino.Value.ToString());
+            
+            string notification = "You successfully ordered " + lblCappuccino.Text +" "+cbSizeCapp.SelectedItem.ToString()+ "! Quantity: " + nudCappuccino.Value.ToString();
+            MessageBoxButtons buttons = MessageBoxButtons.OK;
+            string caption = "Order successful!";
+            MessageBox.Show(notification, caption, buttons);
         }
 
         private void btnLatte_Click(object sender, EventArgs e)
         {
             btnLatteC = true;
-            /*narachka = new Order(lblLatte.Text, nudLatte.Value.ToString());*/
+            string notification = "";
+            string caption = "";
+            if (comboBox1.SelectedIndex!=-1)
+            { 
+                notification = "You successfully ordered " + lblLatte.Text + " "+cbSizeLatte.SelectedItem.ToString()+" " + comboBox1.SelectedItem.ToString() + "! Quantity: " + nudLatte.Value.ToString();
+                caption = "Order successful!";
+            }
+            else
+            {
+                notification = "You need to pick a flavour!";
+                caption = "Order not successful!";
+            }
+            
+            MessageBoxButtons buttons = MessageBoxButtons.OK;
+            
+            MessageBox.Show(notification, caption, buttons);
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -49,14 +77,14 @@ namespace VP_Proekt_Starbucks_Menu
             if(btnCappuccinoC)
             {
                 float price = float.Parse(lblPriceCap.Text);
-                narachka.Add(new Order(lblCappuccino.Text, (int)nudCappuccino.Value,price));
+                narachka.Add(new Order(lblCappuccino.Text,cbSizeCapp.SelectedItem.ToString(), (int)nudCappuccino.Value,price));
                 
                
             }
             if (btnCoffeeC)
             {
                 float price = float.Parse(lblPriceEsp.Text);
-                narachka.Add(new Order(lblEspresso.Text, (int)nudEspresso.Value,price));
+                narachka.Add(new Order(lblEspresso.Text,cbSizeEsp.SelectedItem.ToString(), (int)nudEspresso.Value,price));
                 
             }
             
@@ -76,9 +104,61 @@ namespace VP_Proekt_Starbucks_Menu
         {
                 changed = true;
                 float price = float.Parse(lblPrLatte.Text);
-                narachka.Add(new Order(lblLatte.Text + " " + comboBox1.SelectedItem.ToString(), (int)nudLatte.Value, price));
+                narachka.Add(new Order(lblLatte.Text + " " + comboBox1.SelectedItem.ToString(),cbSizeLatte.SelectedItem.ToString(), (int)nudLatte.Value, price));
                 btnLatteC = false;
                 changed = false;
+        }
+
+        private void cbSizeEsp_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbSizeEsp.SelectedIndex == 0)
+            {
+                lblPriceEsp.Text = "2,20";
+            }
+            else if (cbSizeEsp.SelectedIndex == 1)
+            {
+                lblPriceEsp.Text = "3,10";
+            }
+            else if (cbSizeEsp.SelectedIndex == 2)
+            {
+                lblPriceEsp.Text = "4,10";
+            }
+            else lblPriceEsp.Text = "";
+        }
+
+        private void cbSizeCapp_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbSizeCapp.SelectedIndex == 0)
+            {
+                lblPriceCap.Text = "2,80";
+            }
+            else if (cbSizeCapp.SelectedIndex == 1)
+            {
+                lblPriceCap.Text = "3,60";
+            }
+            else if (cbSizeCapp.SelectedIndex == 2)
+            {
+                lblPriceCap.Text = "4,50";
+            }
+            else lblPriceCap.Text = "";
+
+        }
+
+        private void cpSizeLatte_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbSizeLatte.SelectedIndex == 0)
+            {
+                lblPrLatte.Text = "3,40";
+            }
+            else if (cbSizeLatte.SelectedIndex == 1)
+            {
+                lblPrLatte.Text = "4,50";
+            }
+            else if (cbSizeLatte.SelectedIndex == 2)
+            {
+                lblPrLatte.Text = "5,50";
+            }
+            else lblPrLatte.Text = "";
         }
     }
 }

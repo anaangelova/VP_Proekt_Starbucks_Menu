@@ -17,6 +17,7 @@ namespace VP_Proekt_Starbucks_Menu
         public Form1()
         {
             InitializeComponent();
+            tbTotal.Text = "0";
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -44,6 +45,7 @@ namespace VP_Proekt_Starbucks_Menu
             
             HotCoffees forma = new HotCoffees();
             forma.ShowDialog();
+            
             float price = 0;
             foreach(var el in forma.narachka)
             {
@@ -52,11 +54,41 @@ namespace VP_Proekt_Starbucks_Menu
 
                 
             }
-            tbTotal.Text ="$" + price.ToString();
+            float old = float.Parse(tbTotal.Text);
+            float newTotal = old + price;
+            tbTotal.Text =newTotal.ToString();
 
            
            
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedIndex != -1)
+            {
+
+                listBox1.Items.RemoveAt(listBox1.SelectedIndex);
+
+
+            }
+
+           
+        }
+
+        private void pbFrapp_Click(object sender, EventArgs e)
+        {
+            Frappuchino forma2 = new Frappuchino();
+            forma2.ShowDialog();
+            float price = 0;
+            foreach(var el in forma2.narachka)
+            {
+                listBox1.Items.Add(el);
+                price += el.cena*el.kolichina;
+            }
+            float old = float.Parse(tbTotal.Text);
+            float newTotal = old + price;
+            tbTotal.Text =newTotal.ToString();
         }
     }
 }

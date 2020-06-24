@@ -12,16 +12,18 @@ namespace VP_Proekt_Starbucks_Menu
         public string stavka { get; set; }
         public int kolichina { get; set; }
         public float cena { get; set; }
+        public string golemina { get; set; }
         
-        public Order(string stavka="",int kolichina=0, float cena=0)
+        public Order(string stavka="",string golemina="",int kolichina=0, float cena=0)
         {
             this.stavka = stavka;
             this.kolichina = kolichina;
             this.cena = cena;
+            this.golemina = golemina;
         }
         public override string ToString()
         {
-            return string.Format("{0} x{1} quantity - ${2:0.00} total", stavka, kolichina, cena*kolichina);
+            return string.Format("{0} {1} x{2} quantity - ${3:0.00} total", stavka,golemina, kolichina, cena*kolichina);
 
         }
     }

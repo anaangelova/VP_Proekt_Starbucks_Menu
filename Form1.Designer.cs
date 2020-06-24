@@ -38,6 +38,10 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.order = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnPay = new System.Windows.Forms.Button();
+            this.tbTotal = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.pbDessert = new System.Windows.Forms.PictureBox();
             this.pbSand = new System.Windows.Forms.PictureBox();
@@ -45,9 +49,6 @@
             this.pbFrapp = new System.Windows.Forms.PictureBox();
             this.pbColdCoffee = new System.Windows.Forms.PictureBox();
             this.pbHotCoffee = new System.Windows.Forms.PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.tbTotal = new System.Windows.Forms.TextBox();
-            this.btnPay = new System.Windows.Forms.Button();
             this.order.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbDessert)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbSand)).BeginInit();
@@ -163,6 +164,7 @@
             // 
             // order
             // 
+            this.order.Controls.Add(this.button1);
             this.order.Controls.Add(this.btnPay);
             this.order.Controls.Add(this.tbTotal);
             this.order.Controls.Add(this.label7);
@@ -173,6 +175,42 @@
             this.order.TabIndex = 15;
             this.order.TabStop = false;
             this.order.Text = "Total order";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(6, 146);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(154, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Remove item";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnPay
+            // 
+            this.btnPay.Location = new System.Drawing.Point(6, 200);
+            this.btnPay.Name = "btnPay";
+            this.btnPay.Size = new System.Drawing.Size(216, 23);
+            this.btnPay.TabIndex = 3;
+            this.btnPay.Text = "PAY NOW";
+            this.btnPay.UseVisualStyleBackColor = true;
+            // 
+            // tbTotal
+            // 
+            this.tbTotal.Enabled = false;
+            this.tbTotal.Location = new System.Drawing.Point(60, 174);
+            this.tbTotal.Name = "tbTotal";
+            this.tbTotal.Size = new System.Drawing.Size(100, 20);
+            this.tbTotal.TabIndex = 2;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(3, 177);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(60, 13);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Total price:";
             // 
             // listBox1
             // 
@@ -223,6 +261,7 @@
             this.pbFrapp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pbFrapp.TabIndex = 7;
             this.pbFrapp.TabStop = false;
+            this.pbFrapp.Click += new System.EventHandler(this.pbFrapp_Click);
             // 
             // pbColdCoffee
             // 
@@ -245,36 +284,11 @@
             this.pbHotCoffee.TabStop = false;
             this.pbHotCoffee.Click += new System.EventHandler(this.pbHotCoffee_Click);
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(3, 157);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(60, 13);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "Total price:";
-            // 
-            // tbTotal
-            // 
-            this.tbTotal.Enabled = false;
-            this.tbTotal.Location = new System.Drawing.Point(60, 154);
-            this.tbTotal.Name = "tbTotal";
-            this.tbTotal.Size = new System.Drawing.Size(100, 20);
-            this.tbTotal.TabIndex = 2;
-            // 
-            // btnPay
-            // 
-            this.btnPay.Location = new System.Drawing.Point(23, 200);
-            this.btnPay.Name = "btnPay";
-            this.btnPay.Size = new System.Drawing.Size(137, 23);
-            this.btnPay.TabIndex = 3;
-            this.btnPay.Text = "PAY NOW";
-            this.btnPay.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(877, 497);
             this.Controls.Add(this.order);
             this.Controls.Add(this.label6);
@@ -330,6 +344,7 @@
         private System.Windows.Forms.TextBox tbTotal;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnPay;
+        private System.Windows.Forms.Button button1;
     }
 }
 
