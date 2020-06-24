@@ -14,7 +14,7 @@ namespace VP_Proekt_Starbucks_Menu
     {
 
         public List<Order> narachka { get; set; }
-        
+        public Form1 form1 { get; set; }
         public HotCoffees()
         {
             InitializeComponent();
@@ -22,6 +22,9 @@ namespace VP_Proekt_Starbucks_Menu
             cbSizeCapp.SelectedIndex = 0;
             cbSizeEsp.SelectedIndex = 0;
             cbSizeLatte.SelectedIndex = 0;
+            form1 = new Form1();
+            
+           
             
         }
 
@@ -160,5 +163,6 @@ namespace VP_Proekt_Starbucks_Menu
             }
             else lblPrLatte.Text = "";
         }
+      
     }
 }

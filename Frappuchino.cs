@@ -13,6 +13,8 @@ namespace VP_Proekt_Starbucks_Menu
     public partial class Frappuchino : Form
     {
         public List<Order> narachka { get; set; }
+        
+        
         public Frappuchino()
         {
             InitializeComponent();
@@ -33,6 +35,7 @@ namespace VP_Proekt_Starbucks_Menu
             MessageBoxButtons buttons = MessageBoxButtons.OK;
             string caption = "Order successful!";
             MessageBox.Show(notification, caption, buttons);
+            
         }
 
         private void btnOrderSmores_Click(object sender, EventArgs e)

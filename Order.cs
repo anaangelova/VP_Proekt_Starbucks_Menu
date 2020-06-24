@@ -23,7 +23,7 @@ namespace VP_Proekt_Starbucks_Menu
         }
         public override string ToString()
         {
-            return string.Format("{0} {1} x{2} quantity - ${3:0.00} total", stavka,golemina, kolichina, cena*kolichina);
+            return string.Format("{0} {1} x{2} quantity, total: ${3:0.00}", stavka,golemina, kolichina, cena*kolichina);
 
         }
     }

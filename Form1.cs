@@ -14,6 +14,7 @@ namespace VP_Proekt_Starbucks_Menu
     public partial class Form1 : Form
     {
         
+        
         public Form1()
         {
             InitializeComponent();
@@ -57,19 +58,22 @@ namespace VP_Proekt_Starbucks_Menu
             float old = float.Parse(tbTotal.Text);
             float newTotal = old + price;
             tbTotal.Text =newTotal.ToString();
-
+            
            
            
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        public void button1_Click(object sender, EventArgs e)
         {
             if (listBox1.SelectedIndex != -1)
             {
-
+                string item = listBox1.SelectedItem.ToString();
+                string output=item.Substring(item.IndexOf("$")).Replace("$", "");
                 listBox1.Items.RemoveAt(listBox1.SelectedIndex);
-
+                float oldPrice = float.Parse(tbTotal.Text);
+                float newPrice = oldPrice - float.Parse(output);
+                tbTotal.Text = newPrice.ToString();
 
             }
 
@@ -89,6 +93,10 @@ namespace VP_Proekt_Starbucks_Menu
             float old = float.Parse(tbTotal.Text);
             float newTotal = old + price;
             tbTotal.Text =newTotal.ToString();
+        }
+        private void removeEl()
+        {
+         
         }
     }
 }
