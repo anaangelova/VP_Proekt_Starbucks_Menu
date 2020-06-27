@@ -71,15 +71,17 @@
             // 
             this.lblEspresso.AutoSize = true;
             this.lblEspresso.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblEspresso.Location = new System.Drawing.Point(12, 51);
+            this.lblEspresso.Location = new System.Drawing.Point(16, 63);
+            this.lblEspresso.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEspresso.Name = "lblEspresso";
-            this.lblEspresso.Size = new System.Drawing.Size(97, 24);
+            this.lblEspresso.Size = new System.Drawing.Size(123, 29);
             this.lblEspresso.TabIndex = 0;
             this.lblEspresso.Text = "Espresso";
             // 
             // nudEspresso
             // 
-            this.nudEspresso.Location = new System.Drawing.Point(16, 249);
+            this.nudEspresso.Location = new System.Drawing.Point(21, 306);
+            this.nudEspresso.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.nudEspresso.Maximum = new decimal(new int[] {
             10,
             0,
@@ -91,7 +93,7 @@
             0,
             0});
             this.nudEspresso.Name = "nudEspresso";
-            this.nudEspresso.Size = new System.Drawing.Size(120, 20);
+            this.nudEspresso.Size = new System.Drawing.Size(160, 22);
             this.nudEspresso.TabIndex = 2;
             this.nudEspresso.Value = new decimal(new int[] {
             1,
@@ -102,9 +104,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 233);
+            this.label2.Location = new System.Drawing.Point(17, 287);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 13);
+            this.label2.Size = new System.Drawing.Size(65, 17);
             this.label2.TabIndex = 3;
             this.label2.Text = "Quantity:";
             // 
@@ -112,15 +115,17 @@
             // 
             this.lblCappuccino.AutoSize = true;
             this.lblCappuccino.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblCappuccino.Location = new System.Drawing.Point(193, 51);
+            this.lblCappuccino.Location = new System.Drawing.Point(257, 63);
+            this.lblCappuccino.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCappuccino.Name = "lblCappuccino";
-            this.lblCappuccino.Size = new System.Drawing.Size(122, 24);
+            this.lblCappuccino.Size = new System.Drawing.Size(151, 29);
             this.lblCappuccino.TabIndex = 4;
             this.lblCappuccino.Text = "Cappuccino";
             // 
             // nudCappuccino
             // 
-            this.nudCappuccino.Location = new System.Drawing.Point(197, 249);
+            this.nudCappuccino.Location = new System.Drawing.Point(263, 306);
+            this.nudCappuccino.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.nudCappuccino.Maximum = new decimal(new int[] {
             10,
             0,
@@ -132,7 +137,7 @@
             0,
             0});
             this.nudCappuccino.Name = "nudCappuccino";
-            this.nudCappuccino.Size = new System.Drawing.Size(120, 20);
+            this.nudCappuccino.Size = new System.Drawing.Size(160, 22);
             this.nudCappuccino.TabIndex = 6;
             this.nudCappuccino.Value = new decimal(new int[] {
             1,
@@ -143,16 +148,18 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(194, 233);
+            this.label4.Location = new System.Drawing.Point(259, 287);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(49, 13);
+            this.label4.Size = new System.Drawing.Size(65, 17);
             this.label4.TabIndex = 7;
             this.label4.Text = "Quantity:";
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.latte;
-            this.pictureBox3.Location = new System.Drawing.Point(375, 75);
+            this.pictureBox3.Location = new System.Drawing.Point(500, 92);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(150, 129);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -162,7 +169,8 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.capucino;
-            this.pictureBox2.Location = new System.Drawing.Point(197, 75);
+            this.pictureBox2.Location = new System.Drawing.Point(263, 92);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(150, 153);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -172,7 +180,8 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.espresso;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 78);
+            this.pictureBox1.Location = new System.Drawing.Point(16, 96);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(150, 150);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -183,18 +192,20 @@
             // 
             this.lblLatte.AutoSize = true;
             this.lblLatte.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblLatte.Location = new System.Drawing.Point(371, 51);
+            this.lblLatte.Location = new System.Drawing.Point(495, 63);
+            this.lblLatte.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLatte.Name = "lblLatte";
-            this.lblLatte.Size = new System.Drawing.Size(54, 24);
+            this.lblLatte.Size = new System.Drawing.Size(70, 29);
             this.lblLatte.TabIndex = 9;
             this.lblLatte.Text = "Latte";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(368, 210);
+            this.label6.Location = new System.Drawing.Point(491, 258);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(45, 13);
+            this.label6.Size = new System.Drawing.Size(59, 17);
             this.label6.TabIndex = 10;
             this.label6.Text = "Flavour:";
             // 
@@ -208,24 +219,27 @@
             "Chocolate",
             "Hazelnut",
             "Pumpkin Spice"});
-            this.comboBox1.Location = new System.Drawing.Point(413, 207);
+            this.comboBox1.Location = new System.Drawing.Point(551, 255);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(112, 21);
+            this.comboBox1.Size = new System.Drawing.Size(148, 24);
             this.comboBox1.TabIndex = 11;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(368, 233);
+            this.label7.Location = new System.Drawing.Point(491, 287);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(49, 13);
+            this.label7.Size = new System.Drawing.Size(65, 17);
             this.label7.TabIndex = 12;
             this.label7.Text = "Quantity:";
             // 
             // nudLatte
             // 
-            this.nudLatte.Location = new System.Drawing.Point(371, 249);
+            this.nudLatte.Location = new System.Drawing.Point(495, 306);
+            this.nudLatte.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.nudLatte.Maximum = new decimal(new int[] {
             10,
             0,
@@ -237,7 +251,7 @@
             0,
             0});
             this.nudLatte.Name = "nudLatte";
-            this.nudLatte.Size = new System.Drawing.Size(120, 20);
+            this.nudLatte.Size = new System.Drawing.Size(160, 22);
             this.nudLatte.TabIndex = 13;
             this.nudLatte.Value = new decimal(new int[] {
             1,
@@ -247,39 +261,43 @@
             // 
             // btnEspresso
             // 
-            this.btnEspresso.Location = new System.Drawing.Point(16, 333);
+            this.btnEspresso.Location = new System.Drawing.Point(21, 410);
+            this.btnEspresso.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEspresso.Name = "btnEspresso";
-            this.btnEspresso.Size = new System.Drawing.Size(110, 20);
+            this.btnEspresso.Size = new System.Drawing.Size(147, 25);
             this.btnEspresso.TabIndex = 14;
-            this.btnEspresso.Text = "ORDER";
+            this.btnEspresso.Text = "Order";
             this.btnEspresso.UseVisualStyleBackColor = true;
             this.btnEspresso.Click += new System.EventHandler(this.btnHotCoffee_Click);
             // 
             // btnCappuccino
             // 
-            this.btnCappuccino.Location = new System.Drawing.Point(197, 333);
+            this.btnCappuccino.Location = new System.Drawing.Point(263, 410);
+            this.btnCappuccino.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCappuccino.Name = "btnCappuccino";
-            this.btnCappuccino.Size = new System.Drawing.Size(110, 20);
+            this.btnCappuccino.Size = new System.Drawing.Size(147, 25);
             this.btnCappuccino.TabIndex = 15;
-            this.btnCappuccino.Text = "ORDER";
+            this.btnCappuccino.Text = "Order";
             this.btnCappuccino.UseVisualStyleBackColor = true;
             this.btnCappuccino.Click += new System.EventHandler(this.btnCappuccino_Click);
             // 
             // btnLatte
             // 
-            this.btnLatte.Location = new System.Drawing.Point(371, 333);
+            this.btnLatte.Location = new System.Drawing.Point(495, 410);
+            this.btnLatte.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLatte.Name = "btnLatte";
-            this.btnLatte.Size = new System.Drawing.Size(110, 20);
+            this.btnLatte.Size = new System.Drawing.Size(147, 25);
             this.btnLatte.TabIndex = 16;
-            this.btnLatte.Text = "ORDER";
+            this.btnLatte.Text = "Order";
             this.btnLatte.UseVisualStyleBackColor = true;
             this.btnLatte.Click += new System.EventHandler(this.btnLatte_Click);
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(99, 372);
+            this.btnClose.Location = new System.Drawing.Point(132, 458);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(343, 20);
+            this.btnClose.Size = new System.Drawing.Size(457, 25);
             this.btnClose.TabIndex = 17;
             this.btnClose.Text = "Finish Order";
             this.btnClose.UseVisualStyleBackColor = true;
@@ -288,45 +306,50 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 318);
+            this.label1.Location = new System.Drawing.Point(17, 391);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(43, 13);
+            this.label1.Size = new System.Drawing.Size(56, 17);
             this.label1.TabIndex = 18;
             this.label1.Text = "Price: $";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(194, 317);
+            this.label3.Location = new System.Drawing.Point(259, 390);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(43, 13);
+            this.label3.Size = new System.Drawing.Size(56, 17);
             this.label3.TabIndex = 20;
             this.label3.Text = "Price: $";
             // 
             // lblPriceCap
             // 
             this.lblPriceCap.AutoSize = true;
-            this.lblPriceCap.Location = new System.Drawing.Point(233, 317);
+            this.lblPriceCap.Location = new System.Drawing.Point(311, 390);
+            this.lblPriceCap.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPriceCap.Name = "lblPriceCap";
-            this.lblPriceCap.Size = new System.Drawing.Size(28, 13);
+            this.lblPriceCap.Size = new System.Drawing.Size(36, 17);
             this.lblPriceCap.TabIndex = 21;
             this.lblPriceCap.Text = "3,40";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(370, 317);
+            this.label5.Location = new System.Drawing.Point(493, 390);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(43, 13);
+            this.label5.Size = new System.Drawing.Size(56, 17);
             this.label5.TabIndex = 22;
             this.label5.Text = "Price: $";
             // 
             // lblPrLatte
             // 
             this.lblPrLatte.AutoSize = true;
-            this.lblPrLatte.Location = new System.Drawing.Point(410, 317);
+            this.lblPrLatte.Location = new System.Drawing.Point(547, 390);
+            this.lblPrLatte.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPrLatte.Name = "lblPrLatte";
-            this.lblPrLatte.Size = new System.Drawing.Size(28, 13);
+            this.lblPrLatte.Size = new System.Drawing.Size(36, 17);
             this.lblPrLatte.TabIndex = 23;
             this.lblPrLatte.Text = "4,20";
             this.lblPrLatte.Click += new System.EventHandler(this.lblPrLatte_Click);
@@ -334,36 +357,40 @@
             // lblPriceEsp
             // 
             this.lblPriceEsp.AutoSize = true;
-            this.lblPriceEsp.Location = new System.Drawing.Point(53, 317);
+            this.lblPriceEsp.Location = new System.Drawing.Point(71, 390);
+            this.lblPriceEsp.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPriceEsp.Name = "lblPriceEsp";
-            this.lblPriceEsp.Size = new System.Drawing.Size(28, 13);
+            this.lblPriceEsp.Size = new System.Drawing.Size(36, 17);
             this.lblPriceEsp.TabIndex = 24;
             this.lblPriceEsp.Text = "2,20";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(13, 277);
+            this.label8.Location = new System.Drawing.Point(17, 341);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(30, 13);
+            this.label8.Size = new System.Drawing.Size(39, 17);
             this.label8.TabIndex = 25;
             this.label8.Text = "Size:";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(194, 277);
+            this.label9.Location = new System.Drawing.Point(259, 341);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(30, 13);
+            this.label9.Size = new System.Drawing.Size(39, 17);
             this.label9.TabIndex = 26;
             this.label9.Text = "Size:";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(368, 272);
+            this.label10.Location = new System.Drawing.Point(491, 335);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(30, 13);
+            this.label10.Size = new System.Drawing.Size(39, 17);
             this.label10.TabIndex = 27;
             this.label10.Text = "Size:";
             // 
@@ -374,9 +401,10 @@
             "Tall",
             "Grande",
             "Venti"});
-            this.cbSizeEsp.Location = new System.Drawing.Point(16, 293);
+            this.cbSizeEsp.Location = new System.Drawing.Point(21, 361);
+            this.cbSizeEsp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbSizeEsp.Name = "cbSizeEsp";
-            this.cbSizeEsp.Size = new System.Drawing.Size(120, 21);
+            this.cbSizeEsp.Size = new System.Drawing.Size(159, 24);
             this.cbSizeEsp.TabIndex = 28;
             this.cbSizeEsp.SelectedIndexChanged += new System.EventHandler(this.cbSizeEsp_SelectedIndexChanged);
             // 
@@ -387,9 +415,10 @@
             "Tall",
             "Grande",
             "Venti"});
-            this.cbSizeCapp.Location = new System.Drawing.Point(197, 293);
+            this.cbSizeCapp.Location = new System.Drawing.Point(263, 361);
+            this.cbSizeCapp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbSizeCapp.Name = "cbSizeCapp";
-            this.cbSizeCapp.Size = new System.Drawing.Size(120, 21);
+            this.cbSizeCapp.Size = new System.Drawing.Size(159, 24);
             this.cbSizeCapp.TabIndex = 29;
             this.cbSizeCapp.SelectedIndexChanged += new System.EventHandler(this.cbSizeCapp_SelectedIndexChanged);
             // 
@@ -400,17 +429,18 @@
             "Tall",
             "Grande",
             "Venti"});
-            this.cbSizeLatte.Location = new System.Drawing.Point(371, 288);
+            this.cbSizeLatte.Location = new System.Drawing.Point(495, 354);
+            this.cbSizeLatte.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbSizeLatte.Name = "cbSizeLatte";
-            this.cbSizeLatte.Size = new System.Drawing.Size(120, 21);
+            this.cbSizeLatte.Size = new System.Drawing.Size(159, 24);
             this.cbSizeLatte.TabIndex = 30;
             this.cbSizeLatte.SelectedIndexChanged += new System.EventHandler(this.cpSizeLatte_SelectedIndexChanged);
             // 
             // HotCoffees
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(538, 404);
+            this.ClientSize = new System.Drawing.Size(717, 497);
             this.Controls.Add(this.cbSizeLatte);
             this.Controls.Add(this.cbSizeCapp);
             this.Controls.Add(this.cbSizeEsp);
@@ -441,7 +471,10 @@
             this.Controls.Add(this.nudEspresso);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblEspresso);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "HotCoffees";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HotCoffees";
             ((System.ComponentModel.ISupportInitialize)(this.nudEspresso)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudCappuccino)).EndInit();

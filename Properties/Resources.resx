@@ -118,61 +118,91 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="FrappSmores" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FrappSmores.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="coldd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coldd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="frappCaramel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frappCaramel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="muffin1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\muffin1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hott" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hott.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="muffin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\muffin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hot coffee1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hot coffee1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hot coffee" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hot coffee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="latte" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\latte.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Tomato&amp;Mozzarella" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tomato&amp;Mozzarella.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="muffin2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\muffin2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iced tea" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iced tea.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="WTN150713_Starbucks-Iced-Tea-Sparkling-Passion-Tango-Tea-Pineapple1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WTN150713_Starbucks-Iced-Tea-Sparkling-Passion-Tango-Tea-Pineapple1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="espresso" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\espresso.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="capucino" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\capucino.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="coldd" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\coldd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sandwitch" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sandwitch.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="WTN150713_Starbucks-Iced-Tea-Sparkling-Passion-Tango-Tea-Pineapple" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WTN150713_Starbucks-Iced-Tea-Sparkling-Passion-Tango-Tea-Pineapple.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Americano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Americano.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="frappChocolate" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\frappChocolate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="frappuccino" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frappuccino.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sandwitch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sandwitch.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iced tea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iced tea.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="muffin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muffin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Americano1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Americano.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcedCaffeAmericano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcedCaffeAmericano.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WTN150713_Starbucks-Iced-Tea-Sparkling-Passion-Tango-Tea-Pineapple1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WTN150713_Starbucks-Iced-Tea-Sparkling-Passion-Tango-Tea-Pineapple1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcedPineapple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcedPineapple.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hot coffee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hot coffee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FrappSmores" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FrappSmores.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FRAPPsMORESS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FRAPPsMORESS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChocolateFrappuccino" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ChocolateFrappuccino.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hot coffee1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hot coffee1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WTN150713_Starbucks-Iced-Tea-Sparkling-Passion-Tango-Tea-Pineapple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WTN150713_Starbucks-Iced-Tea-Sparkling-Passion-Tango-Tea-Pineapple.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frappuccino" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frappuccino.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SaltedCaramelCreamColdBrew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SaltedCaramelCreamColdBrew.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frappCaramel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frappCaramel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="capucino" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capucino.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hott" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hott.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="latte" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\latte.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="muffin1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muffin1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SaltedCaramelCreamColdBrew1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SaltedCaramelCreamColdBrew.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueberryMuffin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlueberryMuffin.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="espresso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\espresso.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcedFlatWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcedFlatWhite.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -84,6 +84,7 @@ namespace VP_Proekt_Starbucks_Menu
         {
             Frappuchino forma2 = new Frappuchino();
             forma2.ShowDialog();
+
             float price = 0;
             foreach(var el in forma2.narachka)
             {
@@ -97,6 +98,27 @@ namespace VP_Proekt_Starbucks_Menu
         private void removeEl()
         {
          
+        }
+
+        private void lblTitle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pbColdCoffee_Click(object sender, EventArgs e)
+        {
+            ColdCoffees forma3 = new ColdCoffees();
+            forma3.ShowDialog();
+
+            float price = 0;
+            foreach (var el in forma3.narachka)
+            {
+                listBox1.Items.Add(el);
+                price += el.cena * el.kolichina;
+            }
+            float old = float.Parse(tbTotal.Text);
+            float newTotal = old + price;
+            tbTotal.Text = newTotal.ToString();
         }
     }
 }

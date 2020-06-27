@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ColdCoffees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ColdCoffees.Designer.cs">
+      <DependentUpon>ColdCoffees.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +73,9 @@
     <Compile Include="Order.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ColdCoffees.resx">
+      <DependentUpon>ColdCoffees.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -155,6 +164,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\FRAPPsMORESS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Americano.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tomato&amp;Mozzarella.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlueberryMuffin.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChocolateFrappuccino.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcedPineapple.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaltedCaramelCreamColdBrew.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcedCaffeAmericano.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcedFlatWhite.JPG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
