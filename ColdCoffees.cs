@@ -36,8 +36,7 @@ namespace VP_Proekt_Starbucks_Menu
         {
 
         }
-
-        private void btnBrew_Click(object sender, EventArgs e)
+        private void btnBrew_Click_1(object sender, EventArgs e)
         {
             btnB = true;
 
@@ -47,7 +46,7 @@ namespace VP_Proekt_Starbucks_Menu
             MessageBox.Show(notification, caption, buttons);
         }
 
-        private void btnAmericano_Click(object sender, EventArgs e)
+        private void btnAmericano_Click_1(object sender, EventArgs e)
         {
             btnA = true;
 
@@ -57,7 +56,7 @@ namespace VP_Proekt_Starbucks_Menu
             MessageBox.Show(notification, caption, buttons);
         }
 
-        private void btnFlatWhite_Click(object sender, EventArgs e)
+        private void btnFlatWhite_Click_1(object sender, EventArgs e)
         {
             btnFW = true;
 
@@ -85,6 +84,12 @@ namespace VP_Proekt_Starbucks_Menu
                 narachka.Add(new Order(lblFlatWhite.Text, cbFlatWhite.SelectedItem.ToString(), (int)nudFlatWhite.Value, price));
             }
             this.Close();
+        }
+
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void cbBrew_SelectedIndexChanged(object sender, EventArgs e)
@@ -136,11 +141,6 @@ namespace VP_Proekt_Starbucks_Menu
                 lblPriceFlatWhite.Text = "5.65";
             }
             else lblPriceFlatWhite.Text = "";
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

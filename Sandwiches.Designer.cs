@@ -78,7 +78,7 @@
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(477, 37);
             this.btnClose.TabIndex = 12;
-            this.btnClose.Text = "Order";
+            this.btnClose.Text = "Finish";
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
@@ -130,7 +130,7 @@
             this.btnTomatoMozzarella.Name = "btnTomatoMozzarella";
             this.btnTomatoMozzarella.Size = new System.Drawing.Size(102, 34);
             this.btnTomatoMozzarella.TabIndex = 11;
-            this.btnTomatoMozzarella.Text = "Add";
+            this.btnTomatoMozzarella.Text = "Add Order";
             this.btnTomatoMozzarella.UseVisualStyleBackColor = false;
             this.btnTomatoMozzarella.Click += new System.EventHandler(this.btnDragon_Click);
             // 
@@ -244,7 +244,7 @@
             this.btnImpossible.Name = "btnImpossible";
             this.btnImpossible.Size = new System.Drawing.Size(102, 34);
             this.btnImpossible.TabIndex = 11;
-            this.btnImpossible.Text = "Add";
+            this.btnImpossible.Text = "Add Order";
             this.btnImpossible.UseVisualStyleBackColor = false;
             this.btnImpossible.Click += new System.EventHandler(this.btnImpossible_Click);
             // 
@@ -358,7 +358,7 @@
             this.btnBacon.Name = "btnBacon";
             this.btnBacon.Size = new System.Drawing.Size(102, 34);
             this.btnBacon.TabIndex = 11;
-            this.btnBacon.Text = "Add";
+            this.btnBacon.Text = "Add Order";
             this.btnBacon.UseVisualStyleBackColor = false;
             this.btnBacon.Click += new System.EventHandler(this.btnBacon_Click);
             // 

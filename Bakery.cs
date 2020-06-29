@@ -72,5 +72,10 @@ namespace VP_Proekt_Starbucks_Menu
             }
             this.Close();
         }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

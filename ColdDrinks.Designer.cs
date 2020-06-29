@@ -90,7 +90,7 @@
             this.lblDragonDrink.AutoSize = true;
             this.lblDragonDrink.Font = new System.Drawing.Font("Permanent Marker", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDragonDrink.ForeColor = System.Drawing.Color.Sienna;
-            this.lblDragonDrink.Location = new System.Drawing.Point(38, 11);
+            this.lblDragonDrink.Location = new System.Drawing.Point(29, 11);
             this.lblDragonDrink.Name = "lblDragonDrink";
             this.lblDragonDrink.Size = new System.Drawing.Size(174, 35);
             this.lblDragonDrink.TabIndex = 4;
@@ -143,7 +143,7 @@
             this.btnPineapple.Name = "btnPineapple";
             this.btnPineapple.Size = new System.Drawing.Size(102, 34);
             this.btnPineapple.TabIndex = 10;
-            this.btnPineapple.Text = "Add";
+            this.btnPineapple.Text = "Add Order";
             this.btnPineapple.UseVisualStyleBackColor = false;
             this.btnPineapple.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -151,7 +151,7 @@
             // 
             this.lblPricePineapple.AutoSize = true;
             this.lblPricePineapple.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPricePineapple.Location = new System.Drawing.Point(85, 392);
+            this.lblPricePineapple.Location = new System.Drawing.Point(77, 390);
             this.lblPricePineapple.Name = "lblPricePineapple";
             this.lblPricePineapple.Size = new System.Drawing.Size(44, 20);
             this.lblPricePineapple.TabIndex = 9;
@@ -269,7 +269,7 @@
             this.btnDragon.Name = "btnDragon";
             this.btnDragon.Size = new System.Drawing.Size(102, 34);
             this.btnDragon.TabIndex = 11;
-            this.btnDragon.Text = "Add";
+            this.btnDragon.Text = "Add Order";
             this.btnDragon.UseVisualStyleBackColor = false;
             this.btnDragon.Click += new System.EventHandler(this.btnDragon_Click);
             // 
@@ -277,7 +277,7 @@
             // 
             this.lblPriceDragon.AutoSize = true;
             this.lblPriceDragon.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPriceDragon.Location = new System.Drawing.Point(83, 392);
+            this.lblPriceDragon.Location = new System.Drawing.Point(75, 391);
             this.lblPriceDragon.Name = "lblPriceDragon";
             this.lblPriceDragon.Size = new System.Drawing.Size(44, 20);
             this.lblPriceDragon.TabIndex = 10;
@@ -394,7 +394,7 @@
             this.btnLemonade.Name = "btnLemonade";
             this.btnLemonade.Size = new System.Drawing.Size(102, 34);
             this.btnLemonade.TabIndex = 12;
-            this.btnLemonade.Text = "Add";
+            this.btnLemonade.Text = "Add Order";
             this.btnLemonade.UseVisualStyleBackColor = false;
             this.btnLemonade.Click += new System.EventHandler(this.btnLemonade_Click);
             // 
@@ -402,7 +402,7 @@
             // 
             this.lblPriceLemonade.AutoSize = true;
             this.lblPriceLemonade.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPriceLemonade.Location = new System.Drawing.Point(84, 390);
+            this.lblPriceLemonade.Location = new System.Drawing.Point(76, 390);
             this.lblPriceLemonade.Name = "lblPriceLemonade";
             this.lblPriceLemonade.Size = new System.Drawing.Size(44, 20);
             this.lblPriceLemonade.TabIndex = 11;
@@ -491,7 +491,7 @@
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(477, 37);
             this.btnClose.TabIndex = 11;
-            this.btnClose.Text = "Order";
+            this.btnClose.Text = "Finish";
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 

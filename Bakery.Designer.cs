@@ -105,7 +105,7 @@
             this.btnMuffin.Name = "btnMuffin";
             this.btnMuffin.Size = new System.Drawing.Size(102, 34);
             this.btnMuffin.TabIndex = 11;
-            this.btnMuffin.Text = "Add";
+            this.btnMuffin.Text = "Add Order";
             this.btnMuffin.UseVisualStyleBackColor = false;
             this.btnMuffin.Click += new System.EventHandler(this.btnMuffin_Click);
             // 
@@ -114,12 +114,13 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(19, 276);
+            this.label10.Location = new System.Drawing.Point(18, 276);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(199, 45);
+            this.label10.Size = new System.Drawing.Size(215, 45);
             this.label10.TabIndex = 12;
-            this.label10.Text = "Roasted tomatoes, mozzarella, \r\nspinach and basil pesto layered on \r\na toasted fo" +
-    "caccia.";
+            this.label10.Text = "This muffin is dotted throughout\r\nwith sweet blueberries and dusted\r\non top with " +
+    "sugar for a crunchy texture.";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // lblPriceMuffin
             // 
@@ -129,7 +130,7 @@
             this.lblPriceMuffin.Name = "lblPriceMuffin";
             this.lblPriceMuffin.Size = new System.Drawing.Size(44, 20);
             this.lblPriceMuffin.TabIndex = 10;
-            this.lblPriceMuffin.Text = "5.65";
+            this.lblPriceMuffin.Text = "2.95";
             // 
             // label4
             // 
@@ -219,7 +220,7 @@
             this.btnCroissant.Name = "btnCroissant";
             this.btnCroissant.Size = new System.Drawing.Size(102, 34);
             this.btnCroissant.TabIndex = 11;
-            this.btnCroissant.Text = "Add";
+            this.btnCroissant.Text = "Add Order";
             this.btnCroissant.UseVisualStyleBackColor = false;
             this.btnCroissant.Click += new System.EventHandler(this.btnCroissant_Click);
             // 
@@ -228,12 +229,12 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(19, 276);
+            this.label3.Location = new System.Drawing.Point(15, 276);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(199, 45);
+            this.label3.Size = new System.Drawing.Size(218, 45);
             this.label3.TabIndex = 12;
-            this.label3.Text = "Roasted tomatoes, mozzarella, \r\nspinach and basil pesto layered on \r\na toasted fo" +
-    "caccia.";
+            this.label3.Text = "This classic croissant is made with real\r\nbutter to create a golden, crunchy top " +
+    "\r\nwith soft, flaky layers inside. ";
             // 
             // lblPriceCroissant
             // 
@@ -243,7 +244,7 @@
             this.lblPriceCroissant.Name = "lblPriceCroissant";
             this.lblPriceCroissant.Size = new System.Drawing.Size(44, 20);
             this.lblPriceCroissant.TabIndex = 10;
-            this.lblPriceCroissant.Text = "5.65";
+            this.lblPriceCroissant.Text = "2.75";
             // 
             // label6
             // 
@@ -333,7 +334,7 @@
             this.btnBagel.Name = "btnBagel";
             this.btnBagel.Size = new System.Drawing.Size(102, 34);
             this.btnBagel.TabIndex = 11;
-            this.btnBagel.Text = "Add";
+            this.btnBagel.Text = "Add Order";
             this.btnBagel.UseVisualStyleBackColor = false;
             this.btnBagel.Click += new System.EventHandler(this.btnBagel_Click);
             // 
@@ -344,10 +345,10 @@
             this.label12.ForeColor = System.Drawing.Color.Black;
             this.label12.Location = new System.Drawing.Point(19, 276);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(199, 45);
+            this.label12.Size = new System.Drawing.Size(208, 45);
             this.label12.TabIndex = 12;
-            this.label12.Text = "Roasted tomatoes, mozzarella, \r\nspinach and basil pesto layered on \r\na toasted fo" +
-    "caccia.";
+            this.label12.Text = "The flavorful bagel dough topped\r\nwith flax, oats and sunflower seeds is\r\ndelicio" +
+    "us on its own. ";
             // 
             // lblPriceBagel
             // 
@@ -357,7 +358,7 @@
             this.lblPriceBagel.Name = "lblPriceBagel";
             this.lblPriceBagel.Size = new System.Drawing.Size(44, 20);
             this.lblPriceBagel.TabIndex = 10;
-            this.lblPriceBagel.Text = "5.65";
+            this.lblPriceBagel.Text = "2.25";
             // 
             // label14
             // 
