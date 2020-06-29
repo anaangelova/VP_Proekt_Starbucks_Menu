@@ -133,9 +133,9 @@
             this.label6.Location = new System.Drawing.Point(568, 344);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(121, 35);
+            this.label6.Size = new System.Drawing.Size(102, 35);
             this.label6.TabIndex = 14;
-            this.label6.Text = "Desserts";
+            this.label6.Text = "Bakery";
             // 
             // order
             // 
@@ -145,9 +145,9 @@
             this.order.Controls.Add(this.label7);
             this.order.Controls.Add(this.listBox1);
             this.order.Location = new System.Drawing.Point(9, 96);
-            this.order.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.order.Margin = new System.Windows.Forms.Padding(4);
             this.order.Name = "order";
-            this.order.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.order.Padding = new System.Windows.Forms.Padding(4);
             this.order.Size = new System.Drawing.Size(304, 343);
             this.order.TabIndex = 15;
             this.order.TabStop = false;
@@ -156,7 +156,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(8, 180);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(205, 28);
             this.button1.TabIndex = 4;
@@ -167,7 +167,7 @@
             // btnPay
             // 
             this.btnPay.Location = new System.Drawing.Point(8, 287);
-            this.btnPay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnPay.Margin = new System.Windows.Forms.Padding(4);
             this.btnPay.Name = "btnPay";
             this.btnPay.Size = new System.Drawing.Size(288, 28);
             this.btnPay.TabIndex = 3;
@@ -178,7 +178,7 @@
             // 
             this.tbTotal.Enabled = false;
             this.tbTotal.Location = new System.Drawing.Point(80, 214);
-            this.tbTotal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbTotal.Margin = new System.Windows.Forms.Padding(4);
             this.tbTotal.Name = "tbTotal";
             this.tbTotal.Size = new System.Drawing.Size(132, 22);
             this.tbTotal.TabIndex = 2;
@@ -200,7 +200,7 @@
             this.listBox1.HorizontalScrollbar = true;
             this.listBox1.ItemHeight = 16;
             this.listBox1.Location = new System.Drawing.Point(8, 23);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(287, 148);
             this.listBox1.TabIndex = 0;
@@ -269,6 +269,7 @@
             this.pbSand.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pbSand.TabIndex = 11;
             this.pbSand.TabStop = false;
+            this.pbSand.Click += new System.EventHandler(this.pbSand_Click);
             // 
             // pbColdDrinks
             // 
@@ -340,7 +341,7 @@
             this.Controls.Add(this.lblHot);
             this.Controls.Add(this.pbHotCoffee);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

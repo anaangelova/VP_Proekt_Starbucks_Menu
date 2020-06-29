@@ -141,5 +141,21 @@ namespace VP_Proekt_Starbucks_Menu
             float newTotal = old + price;
             tbTotal.Text = newTotal.ToString();
         }
+
+        private void pbSand_Click(object sender, EventArgs e)
+        {
+            Sandwiches forma5 = new Sandwiches();
+            forma5.ShowDialog();
+
+            float price = 0;
+            foreach (var el in forma5.narachka)
+            {
+                listBox1.Items.Add(el);
+                price += el.cena * el.kolichina;
+            }
+            float old = float.Parse(tbTotal.Text);
+            float newTotal = old + price;
+            tbTotal.Text = newTotal.ToString();
+        }
     }
 }
