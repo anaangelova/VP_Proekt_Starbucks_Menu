@@ -137,5 +137,10 @@ namespace VP_Proekt_Starbucks_Menu
             }
             else lblPriceFlatWhite.Text = "";
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

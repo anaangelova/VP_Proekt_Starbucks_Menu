@@ -52,6 +52,12 @@
     <Compile Include="ColdCoffees.Designer.cs">
       <DependentUpon>ColdCoffees.cs</DependentUpon>
     </Compile>
+    <Compile Include="ColdDrinks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ColdDrinks.Designer.cs">
+      <DependentUpon>ColdDrinks.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ColdCoffees.resx">
       <DependentUpon>ColdCoffees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ColdDrinks.resx">
+      <DependentUpon>ColdDrinks.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -194,6 +203,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DragonDrink.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lemonade.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcedPineapple2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaltedCaramelCreamColdBrew2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

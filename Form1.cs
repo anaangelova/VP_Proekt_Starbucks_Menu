@@ -125,5 +125,21 @@ namespace VP_Proekt_Starbucks_Menu
         {
 
         }
+
+        private void pbColdDrinks_Click(object sender, EventArgs e)
+        {
+            ColdDrinks forma4 = new ColdDrinks();
+            forma4.ShowDialog();
+
+            float price = 0;
+            foreach (var el in forma4.narachka)
+            {
+                listBox1.Items.Add(el);
+                price += el.cena * el.kolichina;
+            }
+            float old = float.Parse(tbTotal.Text);
+            float newTotal = old + price;
+            tbTotal.Text = newTotal.ToString();
+        }
     }
 }

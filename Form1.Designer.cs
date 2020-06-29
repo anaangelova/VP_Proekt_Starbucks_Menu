@@ -280,6 +280,7 @@
             this.pbColdDrinks.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pbColdDrinks.TabIndex = 8;
             this.pbColdDrinks.TabStop = false;
+            this.pbColdDrinks.Click += new System.EventHandler(this.pbColdDrinks_Click);
             // 
             // pbFrapp
             // 

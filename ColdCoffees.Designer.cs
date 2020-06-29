@@ -28,9 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -56,44 +53,16 @@
             this.lblPriceBrew = new System.Windows.Forms.Label();
             this.lblPriceAmericano = new System.Windows.Forms.Label();
             this.lblPriceFlatWhite = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.nudBrew)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudAmericano)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudFlatWhite)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.IcedFlatWhite;
-            this.pictureBox3.Location = new System.Drawing.Point(634, 66);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(190, 201);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.IcedCaffeAmericano;
-            this.pictureBox2.Location = new System.Drawing.Point(347, 66);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(190, 201);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.SaltedCaramelCreamColdBrew1;
-            this.pictureBox1.Location = new System.Drawing.Point(57, 66);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(190, 201);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
@@ -190,7 +159,7 @@
             this.lblAmericano.AutoSize = true;
             this.lblAmericano.Font = new System.Drawing.Font("Permanent Marker", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAmericano.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.lblAmericano.Location = new System.Drawing.Point(341, 28);
+            this.lblAmericano.Location = new System.Drawing.Point(377, 28);
             this.lblAmericano.Name = "lblAmericano";
             this.lblAmericano.Size = new System.Drawing.Size(141, 35);
             this.lblAmericano.TabIndex = 12;
@@ -201,7 +170,7 @@
             this.lblColdBrew.AutoSize = true;
             this.lblColdBrew.Font = new System.Drawing.Font("Permanent Marker", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblColdBrew.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.lblColdBrew.Location = new System.Drawing.Point(51, 28);
+            this.lblColdBrew.Location = new System.Drawing.Point(77, 28);
             this.lblColdBrew.Name = "lblColdBrew";
             this.lblColdBrew.Size = new System.Drawing.Size(141, 35);
             this.lblColdBrew.TabIndex = 13;
@@ -395,11 +364,43 @@
             this.lblPriceFlatWhite.TabIndex = 27;
             this.lblPriceFlatWhite.Text = "3.75";
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.IcedFlatWhite;
+            this.pictureBox3.Location = new System.Drawing.Point(634, 66);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(190, 201);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox3.TabIndex = 2;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.IcedCaffeAmericano;
+            this.pictureBox2.Location = new System.Drawing.Point(347, 66);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(190, 201);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.SaltedCaramelCreamColdBrew2;
+            this.pictureBox1.Location = new System.Drawing.Point(57, 66);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(190, 201);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // ColdCoffees
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(875, 574);
+            this.ClientSize = new System.Drawing.Size(876, 564);
             this.Controls.Add(this.lblPriceFlatWhite);
             this.Controls.Add(this.lblPriceAmericano);
             this.Controls.Add(this.lblPriceBrew);
@@ -432,12 +433,12 @@
             this.Name = "ColdCoffees";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ColdCoffees";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudBrew)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudAmericano)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudFlatWhite)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
