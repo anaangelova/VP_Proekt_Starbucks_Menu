@@ -120,5 +120,10 @@ namespace VP_Proekt_Starbucks_Menu
             float newTotal = old + price;
             tbTotal.Text = newTotal.ToString();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

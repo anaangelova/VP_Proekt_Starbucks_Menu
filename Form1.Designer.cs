@@ -43,6 +43,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblStarbucks = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pbDessert = new System.Windows.Forms.PictureBox();
             this.pbSand = new System.Windows.Forms.PictureBox();
             this.pbColdDrinks = new System.Windows.Forms.PictureBox();
@@ -52,6 +53,7 @@
             this.order.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbDessert)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbSand)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbColdDrinks)).BeginInit();
@@ -65,7 +67,7 @@
             this.lblHot.AutoSize = true;
             this.lblHot.Font = new System.Drawing.Font("Permanent Marker", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHot.ForeColor = System.Drawing.Color.Sienna;
-            this.lblHot.Location = new System.Drawing.Point(13, 57);
+            this.lblHot.Location = new System.Drawing.Point(7, 79);
             this.lblHot.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblHot.Name = "lblHot";
             this.lblHot.Size = new System.Drawing.Size(165, 35);
@@ -77,7 +79,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Permanent Marker", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Sienna;
-            this.label1.Location = new System.Drawing.Point(568, 63);
+            this.label1.Location = new System.Drawing.Point(568, 79);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(177, 35);
@@ -90,7 +92,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Permanent Marker", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Sienna;
-            this.label2.Location = new System.Drawing.Point(289, 57);
+            this.label2.Location = new System.Drawing.Point(289, 79);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(180, 35);
@@ -103,7 +105,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Permanent Marker", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Sienna;
-            this.label3.Location = new System.Drawing.Point(15, 336);
+            this.label3.Location = new System.Drawing.Point(15, 344);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(163, 35);
@@ -116,7 +118,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Permanent Marker", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Sienna;
-            this.label5.Location = new System.Drawing.Point(289, 336);
+            this.label5.Location = new System.Drawing.Point(289, 346);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(167, 35);
@@ -128,7 +130,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Permanent Marker", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Sienna;
-            this.label6.Location = new System.Drawing.Point(568, 336);
+            this.label6.Location = new System.Drawing.Point(568, 344);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(121, 35);
@@ -208,19 +210,20 @@
             this.panel1.BackColor = System.Drawing.Color.LightGray;
             this.panel1.Controls.Add(this.order);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(843, 0);
+            this.panel1.Location = new System.Drawing.Point(847, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(326, 612);
+            this.panel1.Size = new System.Drawing.Size(320, 621);
             this.panel1.TabIndex = 16;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Black;
+            this.panel2.BackColor = System.Drawing.Color.Gray;
+            this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.lblStarbucks);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(843, 54);
+            this.panel2.Size = new System.Drawing.Size(847, 54);
             this.panel2.TabIndex = 17;
             // 
             // lblStarbucks
@@ -228,16 +231,27 @@
             this.lblStarbucks.AutoSize = true;
             this.lblStarbucks.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStarbucks.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblStarbucks.Location = new System.Drawing.Point(74, 19);
+            this.lblStarbucks.Location = new System.Drawing.Point(66, 18);
             this.lblStarbucks.Name = "lblStarbucks";
             this.lblStarbucks.Size = new System.Drawing.Size(213, 25);
             this.lblStarbucks.TabIndex = 0;
             this.lblStarbucks.Text = "STARBUCKS MENU";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.logo21;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(60, 54);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // pbDessert
             // 
             this.pbDessert.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.BlueberryMuffin;
-            this.pbDessert.Location = new System.Drawing.Point(573, 373);
+            this.pbDessert.Location = new System.Drawing.Point(574, 385);
             this.pbDessert.Margin = new System.Windows.Forms.Padding(4);
             this.pbDessert.Name = "pbDessert";
             this.pbDessert.Size = new System.Drawing.Size(222, 213);
@@ -248,7 +262,7 @@
             // pbSand
             // 
             this.pbSand.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.Tomato_Mozzarella;
-            this.pbSand.Location = new System.Drawing.Point(294, 373);
+            this.pbSand.Location = new System.Drawing.Point(292, 385);
             this.pbSand.Margin = new System.Windows.Forms.Padding(4);
             this.pbSand.Name = "pbSand";
             this.pbSand.Size = new System.Drawing.Size(222, 213);
@@ -259,7 +273,7 @@
             // pbColdDrinks
             // 
             this.pbColdDrinks.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.IcedPineapple;
-            this.pbColdDrinks.Location = new System.Drawing.Point(19, 371);
+            this.pbColdDrinks.Location = new System.Drawing.Point(16, 383);
             this.pbColdDrinks.Margin = new System.Windows.Forms.Padding(4);
             this.pbColdDrinks.Name = "pbColdDrinks";
             this.pbColdDrinks.Size = new System.Drawing.Size(224, 215);
@@ -270,7 +284,7 @@
             // pbFrapp
             // 
             this.pbFrapp.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.ChocolateFrappuccino;
-            this.pbFrapp.Location = new System.Drawing.Point(292, 96);
+            this.pbFrapp.Location = new System.Drawing.Point(295, 117);
             this.pbFrapp.Margin = new System.Windows.Forms.Padding(4);
             this.pbFrapp.Name = "pbFrapp";
             this.pbFrapp.Size = new System.Drawing.Size(224, 214);
@@ -282,7 +296,7 @@
             // pbColdCoffee
             // 
             this.pbColdCoffee.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.SaltedCaramelCreamColdBrew;
-            this.pbColdCoffee.Location = new System.Drawing.Point(573, 97);
+            this.pbColdCoffee.Location = new System.Drawing.Point(574, 119);
             this.pbColdCoffee.Margin = new System.Windows.Forms.Padding(4);
             this.pbColdCoffee.Name = "pbColdCoffee";
             this.pbColdCoffee.Size = new System.Drawing.Size(222, 213);
@@ -295,7 +309,7 @@
             // 
             this.pbHotCoffee.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.Americano1;
             this.pbHotCoffee.ImageLocation = "";
-            this.pbHotCoffee.Location = new System.Drawing.Point(16, 97);
+            this.pbHotCoffee.Location = new System.Drawing.Point(16, 119);
             this.pbHotCoffee.Margin = new System.Windows.Forms.Padding(4);
             this.pbHotCoffee.Name = "pbHotCoffee";
             this.pbHotCoffee.Size = new System.Drawing.Size(224, 213);
@@ -309,7 +323,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(1169, 612);
+            this.ClientSize = new System.Drawing.Size(1167, 621);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label6);
@@ -335,6 +349,7 @@
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbDessert)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbSand)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbColdDrinks)).EndInit();
@@ -368,6 +383,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lblStarbucks;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

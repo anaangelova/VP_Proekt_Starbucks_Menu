@@ -263,6 +263,26 @@ namespace VP_Proekt_Starbucks_Menu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap logo2 {
+            get {
+                object obj = ResourceManager.GetObject("logo2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo21 {
+            get {
+                object obj = ResourceManager.GetObject("logo21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap muffin {
             get {
                 object obj = ResourceManager.GetObject("muffin", resourceCulture);
@@ -316,6 +336,26 @@ namespace VP_Proekt_Starbucks_Menu.Properties {
         internal static System.Drawing.Bitmap sandwitch {
             get {
                 object obj = ResourceManager.GetObject("sandwitch", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap starbuckscofee {
+            get {
+                object obj = ResourceManager.GetObject("starbuckscofee", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap starbuckscofee1 {
+            get {
+                object obj = ResourceManager.GetObject("starbuckscofee1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
