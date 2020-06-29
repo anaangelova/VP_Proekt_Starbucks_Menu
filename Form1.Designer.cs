@@ -258,6 +258,7 @@
             this.pbDessert.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pbDessert.TabIndex = 13;
             this.pbDessert.TabStop = false;
+            this.pbDessert.Click += new System.EventHandler(this.pbDessert_Click);
             // 
             // pbSand
             // 

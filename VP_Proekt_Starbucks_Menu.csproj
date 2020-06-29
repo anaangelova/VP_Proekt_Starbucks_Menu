@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bakery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bakery.Designer.cs">
+      <DependentUpon>Bakery.cs</DependentUpon>
+    </Compile>
     <Compile Include="ColdCoffees.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +91,9 @@
     <Compile Include="Sandwiches.Designer.cs">
       <DependentUpon>Sandwiches.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Bakery.resx">
+      <DependentUpon>Bakery.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ColdCoffees.resx">
       <DependentUpon>ColdCoffees.cs</DependentUpon>
     </EmbeddedResource>
@@ -233,6 +242,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\BaconSandwich.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlueberryMuffin2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButterCroissant.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VeganBagel.JPG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

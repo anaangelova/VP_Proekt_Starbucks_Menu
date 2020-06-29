@@ -38,7 +38,6 @@
             this.nudTM = new System.Windows.Forms.NumericUpDown();
             this.label7 = new System.Windows.Forms.Label();
             this.lblTM = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -48,7 +47,6 @@
             this.nudImpossible = new System.Windows.Forms.NumericUpDown();
             this.label8 = new System.Windows.Forms.Label();
             this.lblImpossible = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -59,15 +57,17 @@
             this.label9 = new System.Windows.Forms.Label();
             this.lblBacon = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudTM)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudImpossible)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudBacon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnClose
@@ -87,7 +87,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(10, 276);
+            this.label10.Location = new System.Drawing.Point(19, 276);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(199, 45);
             this.label10.TabIndex = 12;
@@ -126,7 +126,7 @@
             // 
             this.btnTomatoMozzarella.BackColor = System.Drawing.Color.LightGray;
             this.btnTomatoMozzarella.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTomatoMozzarella.Location = new System.Drawing.Point(110, 428);
+            this.btnTomatoMozzarella.Location = new System.Drawing.Point(116, 415);
             this.btnTomatoMozzarella.Name = "btnTomatoMozzarella";
             this.btnTomatoMozzarella.Size = new System.Drawing.Size(102, 34);
             this.btnTomatoMozzarella.TabIndex = 11;
@@ -197,16 +197,6 @@
             this.lblTM.TabIndex = 4;
             this.lblTM.Text = "TomatoMozzarella";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.Tomato_Mozzarella2;
-            this.pictureBox1.Location = new System.Drawing.Point(22, 61);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(190, 201);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -250,7 +240,7 @@
             // 
             this.btnImpossible.BackColor = System.Drawing.Color.LightGray;
             this.btnImpossible.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnImpossible.Location = new System.Drawing.Point(110, 428);
+            this.btnImpossible.Location = new System.Drawing.Point(114, 415);
             this.btnImpossible.Name = "btnImpossible";
             this.btnImpossible.Size = new System.Drawing.Size(102, 34);
             this.btnImpossible.TabIndex = 11;
@@ -321,16 +311,6 @@
             this.lblImpossible.TabIndex = 4;
             this.lblImpossible.Text = "Impossible ";
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.ImpossibleSandwich1;
-            this.pictureBox2.Location = new System.Drawing.Point(26, 61);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(190, 201);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -353,7 +333,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(8, 276);
+            this.label12.Location = new System.Drawing.Point(19, 276);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(205, 45);
             this.label12.TabIndex = 14;
@@ -374,7 +354,7 @@
             // 
             this.btnBacon.BackColor = System.Drawing.Color.LightGray;
             this.btnBacon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBacon.Location = new System.Drawing.Point(110, 428);
+            this.btnBacon.Location = new System.Drawing.Point(122, 415);
             this.btnBacon.Name = "btnBacon";
             this.btnBacon.Size = new System.Drawing.Size(102, 34);
             this.btnBacon.TabIndex = 11;
@@ -456,6 +436,26 @@
             this.pictureBox3.TabIndex = 1;
             this.pictureBox3.TabStop = false;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.ImpossibleSandwich1;
+            this.pictureBox2.Location = new System.Drawing.Point(26, 61);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(190, 201);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.Tomato_Mozzarella2;
+            this.pictureBox1.Location = new System.Drawing.Point(22, 61);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(190, 201);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
             // Sandwiches
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -473,15 +473,15 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudTM)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudImpossible)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudBacon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -113,6 +113,26 @@ namespace VP_Proekt_Starbucks_Menu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BlueberryMuffin2 {
+            get {
+                object obj = ResourceManager.GetObject("BlueberryMuffin2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ButterCroissant {
+            get {
+                object obj = ResourceManager.GetObject("ButterCroissant", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap capucino {
             get {
                 object obj = ResourceManager.GetObject("capucino", resourceCulture);
@@ -466,6 +486,16 @@ namespace VP_Proekt_Starbucks_Menu.Properties {
         internal static System.Drawing.Bitmap Tomato_Mozzarella2 {
             get {
                 object obj = ResourceManager.GetObject("Tomato&Mozzarella2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap VeganBagel {
+            get {
+                object obj = ResourceManager.GetObject("VeganBagel", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
