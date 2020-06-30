@@ -11,14 +11,18 @@ using System.Windows.Forms;
 
 namespace VP_Proekt_Starbucks_Menu
 {
+
     public partial class Form1 : Form
     {
+        public static string SetValueForTb = "";
         
-        
+
+
         public Form1()
         {
             InitializeComponent();
             tbTotal.Text = "0";
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -140,6 +144,7 @@ namespace VP_Proekt_Starbucks_Menu
             float old = float.Parse(tbTotal.Text);
             float newTotal = old + price;
             tbTotal.Text = newTotal.ToString();
+            
         }
 
         private void pbSand_Click(object sender, EventArgs e)
@@ -172,6 +177,13 @@ namespace VP_Proekt_Starbucks_Menu
             float old = float.Parse(tbTotal.Text);
             float newTotal = old + price;
             tbTotal.Text = newTotal.ToString();
+        }
+
+        private void btnPay_Click(object sender, EventArgs e)
+        {
+            SetValueForTb = tbTotal.Text;
+            Payment pay = new Payment();
+            pay.Show();
         }
     }
 }

@@ -96,15 +96,15 @@ namespace VP_Proekt_Starbucks_Menu
         {
             if (cbBrew.SelectedIndex == 0)
             {
-                lblPriceBrew.Text = "2.20";
+                lblPriceBrew.Text = "2,20";
             }
             else if (cbBrew.SelectedIndex == 1)
             {
-                lblPriceBrew.Text = "3.40";
+                lblPriceBrew.Text = "3,40";
             }
             else if (cbBrew.SelectedIndex == 2)
             {
-                lblPriceBrew.Text = "4.70";
+                lblPriceBrew.Text = "4,70";
             }
             else lblPriceBrew.Text = "";
         }
@@ -113,15 +113,15 @@ namespace VP_Proekt_Starbucks_Menu
         {
             if (cbAmericano.SelectedIndex == 0)
             {
-                lblPriceAmericano.Text = "2.70";
+                lblPriceAmericano.Text = "2,70";
             }
             else if (cbAmericano.SelectedIndex == 1)
             {
-                lblPriceAmericano.Text = "3.60";
+                lblPriceAmericano.Text = "3,60";
             }
             else if (cbAmericano.SelectedIndex == 2)
             {
-                lblPriceAmericano.Text = "4.90";
+                lblPriceAmericano.Text = "4,90";
             }
             else lblPriceAmericano.Text = "";
         }
@@ -130,15 +130,15 @@ namespace VP_Proekt_Starbucks_Menu
         {
             if (cbFlatWhite.SelectedIndex == 0)
             {
-                lblPriceFlatWhite.Text = "3.75";
+                lblPriceFlatWhite.Text = "3,75";
             }
             else if (cbFlatWhite.SelectedIndex == 1)
             {
-                lblPriceFlatWhite.Text = "4.90";
+                lblPriceFlatWhite.Text = "4,90";
             }
             else if (cbFlatWhite.SelectedIndex == 2)
             {
-                lblPriceFlatWhite.Text = "5.65";
+                lblPriceFlatWhite.Text = "5,65";
             }
             else lblPriceFlatWhite.Text = "";
         }

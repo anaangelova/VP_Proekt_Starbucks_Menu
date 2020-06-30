@@ -77,33 +77,36 @@
             // lblPineappleMatcha
             // 
             this.lblPineappleMatcha.AutoSize = true;
-            this.lblPineappleMatcha.Font = new System.Drawing.Font("Permanent Marker", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPineappleMatcha.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPineappleMatcha.ForeColor = System.Drawing.Color.Sienna;
-            this.lblPineappleMatcha.Location = new System.Drawing.Point(3, 11);
+            this.lblPineappleMatcha.Location = new System.Drawing.Point(2, 9);
+            this.lblPineappleMatcha.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPineappleMatcha.Name = "lblPineappleMatcha";
-            this.lblPineappleMatcha.Size = new System.Drawing.Size(229, 35);
+            this.lblPineappleMatcha.Size = new System.Drawing.Size(161, 24);
             this.lblPineappleMatcha.TabIndex = 3;
             this.lblPineappleMatcha.Text = "Pineapple Matcha";
             // 
             // lblDragonDrink
             // 
             this.lblDragonDrink.AutoSize = true;
-            this.lblDragonDrink.Font = new System.Drawing.Font("Permanent Marker", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDragonDrink.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDragonDrink.ForeColor = System.Drawing.Color.Sienna;
-            this.lblDragonDrink.Location = new System.Drawing.Point(29, 11);
+            this.lblDragonDrink.Location = new System.Drawing.Point(22, 9);
+            this.lblDragonDrink.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDragonDrink.Name = "lblDragonDrink";
-            this.lblDragonDrink.Size = new System.Drawing.Size(174, 35);
+            this.lblDragonDrink.Size = new System.Drawing.Size(120, 24);
             this.lblDragonDrink.TabIndex = 4;
             this.lblDragonDrink.Text = "Dragon Drink";
             // 
             // lblLemonade
             // 
             this.lblLemonade.AutoSize = true;
-            this.lblLemonade.Font = new System.Drawing.Font("Permanent Marker", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLemonade.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLemonade.ForeColor = System.Drawing.Color.Sienna;
-            this.lblLemonade.Location = new System.Drawing.Point(53, 11);
+            this.lblLemonade.Location = new System.Drawing.Point(40, 9);
+            this.lblLemonade.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblLemonade.Name = "lblLemonade";
-            this.lblLemonade.Size = new System.Drawing.Size(131, 35);
+            this.lblLemonade.Size = new System.Drawing.Size(101, 24);
             this.lblLemonade.TabIndex = 5;
             this.lblLemonade.Text = "Lemonade";
             // 
@@ -120,18 +123,20 @@
             this.panel1.Controls.Add(this.nudPineapple);
             this.panel1.Controls.Add(this.lblPineappleMatcha);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(39, 24);
+            this.panel1.Location = new System.Drawing.Point(29, 20);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(236, 466);
+            this.panel1.Size = new System.Drawing.Size(177, 379);
             this.panel1.TabIndex = 6;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(71, 390);
+            this.label11.Location = new System.Drawing.Point(53, 317);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(19, 20);
+            this.label11.Size = new System.Drawing.Size(17, 17);
             this.label11.TabIndex = 13;
             this.label11.Text = "$";
             // 
@@ -139,9 +144,10 @@
             // 
             this.btnPineapple.BackColor = System.Drawing.Color.LightGray;
             this.btnPineapple.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPineapple.Location = new System.Drawing.Point(121, 415);
+            this.btnPineapple.Location = new System.Drawing.Point(91, 337);
+            this.btnPineapple.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnPineapple.Name = "btnPineapple";
-            this.btnPineapple.Size = new System.Drawing.Size(102, 34);
+            this.btnPineapple.Size = new System.Drawing.Size(76, 28);
             this.btnPineapple.TabIndex = 10;
             this.btnPineapple.Text = "Add Order";
             this.btnPineapple.UseVisualStyleBackColor = false;
@@ -151,19 +157,21 @@
             // 
             this.lblPricePineapple.AutoSize = true;
             this.lblPricePineapple.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPricePineapple.Location = new System.Drawing.Point(96, 390);
+            this.lblPricePineapple.Location = new System.Drawing.Point(72, 317);
+            this.lblPricePineapple.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPricePineapple.Name = "lblPricePineapple";
-            this.lblPricePineapple.Size = new System.Drawing.Size(44, 20);
+            this.lblPricePineapple.Size = new System.Drawing.Size(40, 17);
             this.lblPricePineapple.TabIndex = 9;
-            this.lblPricePineapple.Text = "3.50";
+            this.lblPricePineapple.Text = "3,50";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(21, 392);
+            this.label7.Location = new System.Drawing.Point(16, 318);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(50, 18);
+            this.label7.Size = new System.Drawing.Size(41, 15);
             this.label7.TabIndex = 8;
             this.label7.Text = "Price: ";
             // 
@@ -174,9 +182,10 @@
             "Tall",
             "Grande",
             "Venti"});
-            this.cbPineapple.Location = new System.Drawing.Point(24, 348);
+            this.cbPineapple.Location = new System.Drawing.Point(18, 283);
+            this.cbPineapple.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbPineapple.Name = "cbPineapple";
-            this.cbPineapple.Size = new System.Drawing.Size(171, 24);
+            this.cbPineapple.Size = new System.Drawing.Size(129, 21);
             this.cbPineapple.TabIndex = 7;
             this.cbPineapple.SelectedIndexChanged += new System.EventHandler(this.cbPineapple_SelectedIndexChanged);
             // 
@@ -184,9 +193,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(21, 327);
+            this.label4.Location = new System.Drawing.Point(16, 266);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(41, 18);
+            this.label4.Size = new System.Drawing.Size(34, 15);
             this.label4.TabIndex = 6;
             this.label4.Text = "Size:";
             // 
@@ -194,15 +204,17 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(24, 281);
+            this.label1.Location = new System.Drawing.Point(18, 228);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 18);
+            this.label1.Size = new System.Drawing.Size(54, 15);
             this.label1.TabIndex = 5;
             this.label1.Text = "Quantity:";
             // 
             // nudPineapple
             // 
-            this.nudPineapple.Location = new System.Drawing.Point(24, 302);
+            this.nudPineapple.Location = new System.Drawing.Point(18, 245);
+            this.nudPineapple.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.nudPineapple.Maximum = new decimal(new int[] {
             10,
             0,
@@ -214,7 +226,7 @@
             0,
             0});
             this.nudPineapple.Name = "nudPineapple";
-            this.nudPineapple.Size = new System.Drawing.Size(171, 22);
+            this.nudPineapple.Size = new System.Drawing.Size(128, 20);
             this.nudPineapple.TabIndex = 4;
             this.nudPineapple.Value = new decimal(new int[] {
             1,
@@ -225,9 +237,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.IcedPineapple2;
-            this.pictureBox1.Location = new System.Drawing.Point(24, 59);
+            this.pictureBox1.Location = new System.Drawing.Point(18, 48);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(190, 201);
+            this.pictureBox1.Size = new System.Drawing.Size(142, 163);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -246,18 +259,20 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.lblDragonDrink);
             this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Location = new System.Drawing.Point(320, 24);
+            this.panel2.Location = new System.Drawing.Point(240, 20);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(236, 466);
+            this.panel2.Size = new System.Drawing.Size(177, 379);
             this.panel2.TabIndex = 7;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(66, 390);
+            this.label10.Location = new System.Drawing.Point(50, 317);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(19, 20);
+            this.label10.Size = new System.Drawing.Size(17, 17);
             this.label10.TabIndex = 12;
             this.label10.Text = "$";
             // 
@@ -265,9 +280,10 @@
             // 
             this.btnDragon.BackColor = System.Drawing.Color.LightGray;
             this.btnDragon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDragon.Location = new System.Drawing.Point(120, 415);
+            this.btnDragon.Location = new System.Drawing.Point(90, 337);
+            this.btnDragon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnDragon.Name = "btnDragon";
-            this.btnDragon.Size = new System.Drawing.Size(102, 34);
+            this.btnDragon.Size = new System.Drawing.Size(76, 28);
             this.btnDragon.TabIndex = 11;
             this.btnDragon.Text = "Add Order";
             this.btnDragon.UseVisualStyleBackColor = false;
@@ -277,19 +293,21 @@
             // 
             this.lblPriceDragon.AutoSize = true;
             this.lblPriceDragon.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPriceDragon.Location = new System.Drawing.Point(91, 390);
+            this.lblPriceDragon.Location = new System.Drawing.Point(68, 317);
+            this.lblPriceDragon.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPriceDragon.Name = "lblPriceDragon";
-            this.lblPriceDragon.Size = new System.Drawing.Size(44, 20);
+            this.lblPriceDragon.Size = new System.Drawing.Size(40, 17);
             this.lblPriceDragon.TabIndex = 10;
-            this.lblPriceDragon.Text = "3.70";
+            this.lblPriceDragon.Text = "3,70";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(19, 392);
+            this.label8.Location = new System.Drawing.Point(14, 318);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(50, 18);
+            this.label8.Size = new System.Drawing.Size(41, 15);
             this.label8.TabIndex = 9;
             this.label8.Text = "Price: ";
             // 
@@ -300,9 +318,10 @@
             "Tall",
             "Grande",
             "Venti"});
-            this.cbDragon.Location = new System.Drawing.Point(22, 348);
+            this.cbDragon.Location = new System.Drawing.Point(16, 283);
+            this.cbDragon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbDragon.Name = "cbDragon";
-            this.cbDragon.Size = new System.Drawing.Size(171, 24);
+            this.cbDragon.Size = new System.Drawing.Size(129, 21);
             this.cbDragon.TabIndex = 8;
             this.cbDragon.SelectedIndexChanged += new System.EventHandler(this.cbDragon_SelectedIndexChanged);
             // 
@@ -310,15 +329,17 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(19, 327);
+            this.label5.Location = new System.Drawing.Point(14, 266);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(41, 18);
+            this.label5.Size = new System.Drawing.Size(34, 15);
             this.label5.TabIndex = 7;
             this.label5.Text = "Size:";
             // 
             // nudDragon
             // 
-            this.nudDragon.Location = new System.Drawing.Point(22, 302);
+            this.nudDragon.Location = new System.Drawing.Point(16, 245);
+            this.nudDragon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.nudDragon.Maximum = new decimal(new int[] {
             10,
             0,
@@ -330,7 +351,7 @@
             0,
             0});
             this.nudDragon.Name = "nudDragon";
-            this.nudDragon.Size = new System.Drawing.Size(171, 22);
+            this.nudDragon.Size = new System.Drawing.Size(128, 20);
             this.nudDragon.TabIndex = 6;
             this.nudDragon.Value = new decimal(new int[] {
             1,
@@ -342,18 +363,20 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(19, 281);
+            this.label2.Location = new System.Drawing.Point(14, 228);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 18);
+            this.label2.Size = new System.Drawing.Size(54, 15);
             this.label2.TabIndex = 6;
             this.label2.Text = "Quantity:";
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.DragonDrink;
-            this.pictureBox2.Location = new System.Drawing.Point(22, 59);
+            this.pictureBox2.Location = new System.Drawing.Point(16, 48);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(190, 201);
+            this.pictureBox2.Size = new System.Drawing.Size(142, 163);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -371,18 +394,20 @@
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.lblLemonade);
             this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Location = new System.Drawing.Point(601, 24);
+            this.panel3.Location = new System.Drawing.Point(451, 20);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(236, 466);
+            this.panel3.Size = new System.Drawing.Size(177, 379);
             this.panel3.TabIndex = 7;
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(67, 390);
+            this.label12.Location = new System.Drawing.Point(50, 317);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(19, 20);
+            this.label12.Size = new System.Drawing.Size(17, 17);
             this.label12.TabIndex = 14;
             this.label12.Text = "$";
             // 
@@ -390,9 +415,10 @@
             // 
             this.btnLemonade.BackColor = System.Drawing.Color.LightGray;
             this.btnLemonade.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLemonade.Location = new System.Drawing.Point(120, 415);
+            this.btnLemonade.Location = new System.Drawing.Point(90, 337);
+            this.btnLemonade.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLemonade.Name = "btnLemonade";
-            this.btnLemonade.Size = new System.Drawing.Size(102, 34);
+            this.btnLemonade.Size = new System.Drawing.Size(76, 28);
             this.btnLemonade.TabIndex = 12;
             this.btnLemonade.Text = "Add Order";
             this.btnLemonade.UseVisualStyleBackColor = false;
@@ -402,19 +428,21 @@
             // 
             this.lblPriceLemonade.AutoSize = true;
             this.lblPriceLemonade.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPriceLemonade.Location = new System.Drawing.Point(92, 390);
+            this.lblPriceLemonade.Location = new System.Drawing.Point(69, 317);
+            this.lblPriceLemonade.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPriceLemonade.Name = "lblPriceLemonade";
-            this.lblPriceLemonade.Size = new System.Drawing.Size(44, 20);
+            this.lblPriceLemonade.Size = new System.Drawing.Size(40, 17);
             this.lblPriceLemonade.TabIndex = 11;
-            this.lblPriceLemonade.Text = "2.90";
+            this.lblPriceLemonade.Text = "2,90";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(20, 392);
+            this.label9.Location = new System.Drawing.Point(15, 318);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(50, 18);
+            this.label9.Size = new System.Drawing.Size(41, 15);
             this.label9.TabIndex = 10;
             this.label9.Text = "Price: ";
             // 
@@ -425,9 +453,10 @@
             "Tall",
             "Grande",
             "Venti"});
-            this.cbLemonade.Location = new System.Drawing.Point(23, 348);
+            this.cbLemonade.Location = new System.Drawing.Point(17, 283);
+            this.cbLemonade.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbLemonade.Name = "cbLemonade";
-            this.cbLemonade.Size = new System.Drawing.Size(171, 24);
+            this.cbLemonade.Size = new System.Drawing.Size(129, 21);
             this.cbLemonade.TabIndex = 9;
             this.cbLemonade.SelectedIndexChanged += new System.EventHandler(this.cbLemonade_SelectedIndexChanged);
             // 
@@ -435,15 +464,17 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(20, 327);
+            this.label6.Location = new System.Drawing.Point(15, 266);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(41, 18);
+            this.label6.Size = new System.Drawing.Size(34, 15);
             this.label6.TabIndex = 8;
             this.label6.Text = "Size:";
             // 
             // nudLemonade
             // 
-            this.nudLemonade.Location = new System.Drawing.Point(23, 302);
+            this.nudLemonade.Location = new System.Drawing.Point(17, 245);
+            this.nudLemonade.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.nudLemonade.Maximum = new decimal(new int[] {
             10,
             0,
@@ -455,7 +486,7 @@
             0,
             0});
             this.nudLemonade.Name = "nudLemonade";
-            this.nudLemonade.Size = new System.Drawing.Size(171, 22);
+            this.nudLemonade.Size = new System.Drawing.Size(128, 20);
             this.nudLemonade.TabIndex = 7;
             this.nudLemonade.Value = new decimal(new int[] {
             1,
@@ -467,18 +498,20 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(20, 281);
+            this.label3.Location = new System.Drawing.Point(15, 228);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 18);
+            this.label3.Size = new System.Drawing.Size(54, 15);
             this.label3.TabIndex = 7;
             this.label3.Text = "Quantity:";
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.Lemonade;
-            this.pictureBox3.Location = new System.Drawing.Point(23, 59);
+            this.pictureBox3.Location = new System.Drawing.Point(17, 48);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(190, 201);
+            this.pictureBox3.Size = new System.Drawing.Size(142, 163);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
@@ -487,9 +520,10 @@
             // 
             this.btnClose.BackColor = System.Drawing.Color.WhiteSmoke;
             this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose.Location = new System.Drawing.Point(202, 506);
+            this.btnClose.Location = new System.Drawing.Point(152, 411);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(477, 37);
+            this.btnClose.Size = new System.Drawing.Size(358, 30);
             this.btnClose.TabIndex = 11;
             this.btnClose.Text = "Finish";
             this.btnClose.UseVisualStyleBackColor = false;
@@ -497,15 +531,16 @@
             // 
             // ColdDrinks
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ClientSize = new System.Drawing.Size(875, 564);
+            this.ClientSize = new System.Drawing.Size(656, 458);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ColdDrinks";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.panel1.ResumeLayout(false);

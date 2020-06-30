@@ -83,6 +83,12 @@
       <DependentUpon>HotCoffees.cs</DependentUpon>
     </Compile>
     <Compile Include="Order.cs" />
+    <Compile Include="Payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment.Designer.cs">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sandwiches.cs">
@@ -108,6 +114,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HotCoffees.resx">
       <DependentUpon>HotCoffees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment.resx">
+      <DependentUpon>Payment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

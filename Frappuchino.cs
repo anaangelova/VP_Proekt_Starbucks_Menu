@@ -87,15 +87,15 @@ namespace VP_Proekt_Starbucks_Menu
         {
             if (cbSizeChocolate.SelectedIndex == 0)
             {
-                lblPriceChocolate.Text = "3.80";
+                lblPriceChocolate.Text = "3,80";
             }
             else if (cbSizeChocolate.SelectedIndex == 1)
             {
-                lblPriceChocolate.Text = "4.60";
+                lblPriceChocolate.Text = "4,60";
             }
             else if (cbSizeChocolate.SelectedIndex == 2)
             {
-                lblPriceChocolate.Text = "5.50";
+                lblPriceChocolate.Text = "5,50";
             }
             else lblPriceChocolate.Text = "";
         }
@@ -104,15 +104,15 @@ namespace VP_Proekt_Starbucks_Menu
         {
             if (cbSizeSmores.SelectedIndex == 0)
             {
-                lblPriceSmores.Text = "4.10";
+                lblPriceSmores.Text = "4,10";
             }
             else if (cbSizeSmores.SelectedIndex == 1)
             {
-                lblPriceSmores.Text = "5.60";
+                lblPriceSmores.Text = "5,60";
             }
             else if (cbSizeSmores.SelectedIndex == 2)
             {
-                lblPriceSmores.Text = "6.40";
+                lblPriceSmores.Text = "6,40";
             }
             else lblPriceSmores.Text = "";
         }
@@ -121,15 +121,15 @@ namespace VP_Proekt_Starbucks_Menu
         {
             if (cbSizeCaramel.SelectedIndex == 0)
             {
-                lblPriceCaramel.Text = "3.90";
+                lblPriceCaramel.Text = "3,90";
             }
             else if (cbSizeCaramel.SelectedIndex == 1)
             {
-                lblPriceCaramel.Text = "4.70";
+                lblPriceCaramel.Text = "4,70";
             }
             else if (cbSizeCaramel.SelectedIndex == 2)
             {
-                lblPriceCaramel.Text = "5.60";
+                lblPriceCaramel.Text = "5,60";
             }
             else lblPriceCaramel.Text = "";
         }

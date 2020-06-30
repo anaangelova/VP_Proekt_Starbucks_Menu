@@ -86,15 +86,15 @@ namespace VP_Proekt_Starbucks_Menu
         {
             if (cbPineapple.SelectedIndex == 0)
             {
-                lblPricePineapple.Text = "3.50";
+                lblPricePineapple.Text = "3,50";
             }
             else if (cbPineapple.SelectedIndex == 1)
             {
-                lblPricePineapple.Text = "4.20";
+                lblPricePineapple.Text = "4,20";
             }
             else if (cbPineapple.SelectedIndex == 2)
             {
-                lblPricePineapple.Text = "5.20";
+                lblPricePineapple.Text = "5,20";
             }
             else lblPricePineapple.Text = "";
 
@@ -104,15 +104,15 @@ namespace VP_Proekt_Starbucks_Menu
         {
             if (cbDragon.SelectedIndex == 0)
             {
-                lblPriceDragon.Text = "3.70";
+                lblPriceDragon.Text = "3,70";
             }
             else if (cbDragon.SelectedIndex == 1)
             {
-                lblPriceDragon.Text = "4.65";
+                lblPriceDragon.Text = "4,65";
             }
             else if (cbDragon.SelectedIndex == 2)
             {
-                lblPriceDragon.Text = "5.00";
+                lblPriceDragon.Text = "5,00";
             }
             else lblPriceDragon.Text = "";
 
@@ -122,15 +122,15 @@ namespace VP_Proekt_Starbucks_Menu
         {
             if (cbLemonade.SelectedIndex == 0)
             {
-                lblPriceLemonade.Text = "2.90";
+                lblPriceLemonade.Text = "2,90";
             }
             else if (cbLemonade.SelectedIndex == 1)
             {
-                lblLemonade.Text = "3.55";
+                lblLemonade.Text = "3,55";
             }
             else if (cbLemonade.SelectedIndex == 2)
             {
-                lblPriceLemonade.Text = "4.30";
+                lblPriceLemonade.Text = "4,30";
             }
             else lblPriceLemonade.Text = "";
 
