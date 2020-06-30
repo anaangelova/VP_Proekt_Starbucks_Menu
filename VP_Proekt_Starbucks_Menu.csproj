@@ -261,5 +261,17 @@
   <ItemGroup>
     <None Include="Resources\CaramelFrappuccino.JPG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EspressoShots.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CaffeCappuccino.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LatteCaffe.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LatteCaffe2.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

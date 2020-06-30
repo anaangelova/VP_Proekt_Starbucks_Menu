@@ -121,6 +121,9 @@
   <data name="Lemonade" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Lemonade.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="capucino" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\capucino.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="BlueberryMuffin2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BlueberryMuffin2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -166,6 +169,9 @@
   <data name="Tomato&amp;Mozzarella2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tomato&amp;Mozzarella2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="EspressoShots" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EspressoShots.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="starbuckscofee1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\starbuckscofee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -177,6 +183,9 @@
   </data>
   <data name="ImpossibleSandwich1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ImpossibleSandwich.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CaffeCappuccino" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CaffeCappuccino.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hot coffee" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hot coffee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,6 +199,9 @@
   <data name="ButterCroissant" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ButterCroissant.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="CaramelFrappuccino" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CaramelFrappuccino.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="SaltedCaramelCreamColdBrew2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SaltedCaramelCreamColdBrew2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -198,6 +210,12 @@
   </data>
   <data name="ChocolateFrappuccino" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ChocolateFrappuccino.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LatteCaffe1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LatteCaffe.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frappuccino" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frappuccino.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hot coffee1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hot coffee1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -211,8 +229,8 @@
   <data name="hott" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hott.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="frappuccino" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\frappuccino.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="LatteCaffe2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LatteCaffe2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BaconSandwich2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BaconSandwich.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -226,8 +244,8 @@
   <data name="frappCaramel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\frappCaramel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="capucino" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\capucino.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="LatteCaffe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LatteCaffe.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BaconSandwich1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BaconSandwich.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -265,7 +283,7 @@
   <data name="espresso" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\espresso.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CaramelFrappuccino" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CaramelFrappuccino.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="LatteCaffe3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LatteCaffe.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
