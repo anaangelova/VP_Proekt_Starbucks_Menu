@@ -81,7 +81,7 @@
             // nudEspresso
             // 
             this.nudEspresso.Location = new System.Drawing.Point(21, 306);
-            this.nudEspresso.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nudEspresso.Margin = new System.Windows.Forms.Padding(4);
             this.nudEspresso.Maximum = new decimal(new int[] {
             10,
             0,
@@ -125,7 +125,7 @@
             // nudCappuccino
             // 
             this.nudCappuccino.Location = new System.Drawing.Point(263, 306);
-            this.nudCappuccino.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nudCappuccino.Margin = new System.Windows.Forms.Padding(4);
             this.nudCappuccino.Maximum = new decimal(new int[] {
             10,
             0,
@@ -159,7 +159,7 @@
             // 
             this.pictureBox3.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.latte;
             this.pictureBox3.Location = new System.Drawing.Point(500, 92);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(150, 129);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -170,7 +170,7 @@
             // 
             this.pictureBox2.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.capucino;
             this.pictureBox2.Location = new System.Drawing.Point(263, 92);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(150, 153);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -181,7 +181,7 @@
             // 
             this.pictureBox1.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.espresso;
             this.pictureBox1.Location = new System.Drawing.Point(16, 96);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(150, 150);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -220,7 +220,7 @@
             "Hazelnut",
             "Pumpkin Spice"});
             this.comboBox1.Location = new System.Drawing.Point(551, 255);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(148, 24);
             this.comboBox1.TabIndex = 11;
@@ -239,7 +239,7 @@
             // nudLatte
             // 
             this.nudLatte.Location = new System.Drawing.Point(495, 306);
-            this.nudLatte.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nudLatte.Margin = new System.Windows.Forms.Padding(4);
             this.nudLatte.Maximum = new decimal(new int[] {
             10,
             0,
@@ -262,7 +262,7 @@
             // btnEspresso
             // 
             this.btnEspresso.Location = new System.Drawing.Point(21, 410);
-            this.btnEspresso.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEspresso.Margin = new System.Windows.Forms.Padding(4);
             this.btnEspresso.Name = "btnEspresso";
             this.btnEspresso.Size = new System.Drawing.Size(147, 25);
             this.btnEspresso.TabIndex = 14;
@@ -273,7 +273,7 @@
             // btnCappuccino
             // 
             this.btnCappuccino.Location = new System.Drawing.Point(263, 410);
-            this.btnCappuccino.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCappuccino.Margin = new System.Windows.Forms.Padding(4);
             this.btnCappuccino.Name = "btnCappuccino";
             this.btnCappuccino.Size = new System.Drawing.Size(147, 25);
             this.btnCappuccino.TabIndex = 15;
@@ -284,7 +284,7 @@
             // btnLatte
             // 
             this.btnLatte.Location = new System.Drawing.Point(495, 410);
-            this.btnLatte.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLatte.Margin = new System.Windows.Forms.Padding(4);
             this.btnLatte.Name = "btnLatte";
             this.btnLatte.Size = new System.Drawing.Size(147, 25);
             this.btnLatte.TabIndex = 16;
@@ -295,7 +295,7 @@
             // btnClose
             // 
             this.btnClose.Location = new System.Drawing.Point(132, 458);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(457, 25);
             this.btnClose.TabIndex = 17;
@@ -402,7 +402,7 @@
             "Grande",
             "Venti"});
             this.cbSizeEsp.Location = new System.Drawing.Point(21, 361);
-            this.cbSizeEsp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbSizeEsp.Margin = new System.Windows.Forms.Padding(4);
             this.cbSizeEsp.Name = "cbSizeEsp";
             this.cbSizeEsp.Size = new System.Drawing.Size(159, 24);
             this.cbSizeEsp.TabIndex = 28;
@@ -416,7 +416,7 @@
             "Grande",
             "Venti"});
             this.cbSizeCapp.Location = new System.Drawing.Point(263, 361);
-            this.cbSizeCapp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbSizeCapp.Margin = new System.Windows.Forms.Padding(4);
             this.cbSizeCapp.Name = "cbSizeCapp";
             this.cbSizeCapp.Size = new System.Drawing.Size(159, 24);
             this.cbSizeCapp.TabIndex = 29;
@@ -430,7 +430,7 @@
             "Grande",
             "Venti"});
             this.cbSizeLatte.Location = new System.Drawing.Point(495, 354);
-            this.cbSizeLatte.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbSizeLatte.Margin = new System.Windows.Forms.Padding(4);
             this.cbSizeLatte.Name = "cbSizeLatte";
             this.cbSizeLatte.Size = new System.Drawing.Size(159, 24);
             this.cbSizeLatte.TabIndex = 30;
@@ -440,7 +440,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(717, 497);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ClientSize = new System.Drawing.Size(875, 564);
             this.Controls.Add(this.cbSizeLatte);
             this.Controls.Add(this.cbSizeCapp);
             this.Controls.Add(this.cbSizeEsp);
@@ -472,7 +473,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblEspresso);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "HotCoffees";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HotCoffees";

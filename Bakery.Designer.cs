@@ -37,6 +37,7 @@
             this.nudMuffin = new System.Windows.Forms.NumericUpDown();
             this.label7 = new System.Windows.Forms.Label();
             this.lblMuffin = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.btnCroissant = new System.Windows.Forms.Button();
@@ -46,6 +47,7 @@
             this.nudCroissant = new System.Windows.Forms.NumericUpDown();
             this.label8 = new System.Windows.Forms.Label();
             this.lblCroissant = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
             this.btnBagel = new System.Windows.Forms.Button();
@@ -55,19 +57,17 @@
             this.nudBagel = new System.Windows.Forms.NumericUpDown();
             this.label15 = new System.Windows.Forms.Label();
             this.lblBagel = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnClose = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudMuffin)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudCroissant)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudBagel)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -91,7 +91,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(58, 390);
+            this.label1.Location = new System.Drawing.Point(66, 390);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(19, 20);
             this.label1.TabIndex = 12;
@@ -114,19 +114,19 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(18, 276);
+            this.label10.Location = new System.Drawing.Point(19, 276);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(215, 45);
+            this.label10.Size = new System.Drawing.Size(183, 45);
             this.label10.TabIndex = 12;
-            this.label10.Text = "This muffin is dotted throughout\r\nwith sweet blueberries and dusted\r\non top with " +
-    "sugar for a crunchy texture.";
+            this.label10.Text = "This muffin is dotted throughout\r\nwith sweet, juicy blueberries and\r\ndusted on to" +
+    "p with sugar.";
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // lblPriceMuffin
             // 
             this.lblPriceMuffin.AutoSize = true;
             this.lblPriceMuffin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPriceMuffin.Location = new System.Drawing.Point(75, 392);
+            this.lblPriceMuffin.Location = new System.Drawing.Point(91, 390);
             this.lblPriceMuffin.Name = "lblPriceMuffin";
             this.lblPriceMuffin.Size = new System.Drawing.Size(44, 20);
             this.lblPriceMuffin.TabIndex = 10;
@@ -177,13 +177,23 @@
             // lblMuffin
             // 
             this.lblMuffin.AutoSize = true;
-            this.lblMuffin.Font = new System.Drawing.Font("Permanent Marker", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMuffin.Font = new System.Drawing.Font("Permanent Marker", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMuffin.ForeColor = System.Drawing.Color.Sienna;
-            this.lblMuffin.Location = new System.Drawing.Point(7, 20);
+            this.lblMuffin.Location = new System.Drawing.Point(8, 18);
             this.lblMuffin.Name = "lblMuffin";
-            this.lblMuffin.Size = new System.Drawing.Size(226, 33);
+            this.lblMuffin.Size = new System.Drawing.Size(210, 33);
             this.lblMuffin.TabIndex = 4;
             this.lblMuffin.Text = "Blueberry Muffin";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.BlueberryMuffin2;
+            this.pictureBox1.Location = new System.Drawing.Point(22, 61);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(190, 201);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // panel2
             // 
@@ -206,7 +216,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(58, 390);
+            this.label2.Location = new System.Drawing.Point(66, 390);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(19, 20);
             this.label2.TabIndex = 12;
@@ -231,16 +241,16 @@
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(15, 276);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(218, 45);
+            this.label3.Size = new System.Drawing.Size(190, 45);
             this.label3.TabIndex = 12;
-            this.label3.Text = "This classic croissant is made with real\r\nbutter to create a golden, crunchy top " +
-    "\r\nwith soft, flaky layers inside. ";
+            this.label3.Text = "This croissant is made with real\r\nbutter to create a golden, crunchy \r\ntop with s" +
+    "oft, flaky layers inside. ";
             // 
             // lblPriceCroissant
             // 
             this.lblPriceCroissant.AutoSize = true;
             this.lblPriceCroissant.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPriceCroissant.Location = new System.Drawing.Point(75, 392);
+            this.lblPriceCroissant.Location = new System.Drawing.Point(91, 390);
             this.lblPriceCroissant.Name = "lblPriceCroissant";
             this.lblPriceCroissant.Size = new System.Drawing.Size(44, 20);
             this.lblPriceCroissant.TabIndex = 10;
@@ -291,13 +301,23 @@
             // lblCroissant
             // 
             this.lblCroissant.AutoSize = true;
-            this.lblCroissant.Font = new System.Drawing.Font("Permanent Marker", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCroissant.Font = new System.Drawing.Font("Permanent Marker", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCroissant.ForeColor = System.Drawing.Color.Sienna;
-            this.lblCroissant.Location = new System.Drawing.Point(12, 18);
+            this.lblCroissant.Location = new System.Drawing.Point(13, 18);
             this.lblCroissant.Name = "lblCroissant";
-            this.lblCroissant.Size = new System.Drawing.Size(221, 33);
+            this.lblCroissant.Size = new System.Drawing.Size(205, 33);
             this.lblCroissant.TabIndex = 4;
             this.lblCroissant.Text = "Butter Croissant";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.ButterCroissant;
+            this.pictureBox2.Location = new System.Drawing.Point(22, 61);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(190, 201);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
             // 
             // panel3
             // 
@@ -320,7 +340,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(58, 390);
+            this.label11.Location = new System.Drawing.Point(66, 390);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(19, 20);
             this.label11.TabIndex = 12;
@@ -343,18 +363,19 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(19, 276);
+            this.label12.Location = new System.Drawing.Point(10, 276);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(208, 45);
+            this.label12.Size = new System.Drawing.Size(196, 45);
             this.label12.TabIndex = 12;
-            this.label12.Text = "The flavorful bagel dough topped\r\nwith flax, oats and sunflower seeds is\r\ndelicio" +
+            this.label12.Text = "The flavorful bagel dough topped\r\nwith flax, oats and sunflower seeds\r\nis delicio" +
     "us on its own. ";
             // 
             // lblPriceBagel
             // 
             this.lblPriceBagel.AutoSize = true;
+            this.lblPriceBagel.BackColor = System.Drawing.Color.WhiteSmoke;
             this.lblPriceBagel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPriceBagel.Location = new System.Drawing.Point(75, 392);
+            this.lblPriceBagel.Location = new System.Drawing.Point(91, 390);
             this.lblPriceBagel.Name = "lblPriceBagel";
             this.lblPriceBagel.Size = new System.Drawing.Size(44, 20);
             this.lblPriceBagel.TabIndex = 10;
@@ -405,23 +426,14 @@
             // lblBagel
             // 
             this.lblBagel.AutoSize = true;
-            this.lblBagel.Font = new System.Drawing.Font("Permanent Marker", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBagel.Font = new System.Drawing.Font("Permanent Marker", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBagel.ForeColor = System.Drawing.Color.Sienna;
-            this.lblBagel.Location = new System.Drawing.Point(34, 18);
+            this.lblBagel.Location = new System.Drawing.Point(44, 18);
             this.lblBagel.Name = "lblBagel";
-            this.lblBagel.Size = new System.Drawing.Size(169, 33);
+            this.lblBagel.Size = new System.Drawing.Size(158, 33);
             this.lblBagel.TabIndex = 4;
             this.lblBagel.Text = "Vegan Bagel";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.ButterCroissant;
-            this.pictureBox2.Location = new System.Drawing.Point(22, 61);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(190, 201);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.lblBagel.Click += new System.EventHandler(this.lblBagel_Click);
             // 
             // pictureBox3
             // 
@@ -432,16 +444,6 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox3.TabIndex = 1;
             this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.BlueberryMuffin2;
-            this.pictureBox1.Location = new System.Drawing.Point(22, 61);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(190, 201);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
             // 
             // btnClose
             // 
@@ -472,15 +474,15 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudMuffin)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudCroissant)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudBagel)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

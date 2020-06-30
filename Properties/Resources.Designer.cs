@@ -103,6 +103,16 @@ namespace VP_Proekt_Starbucks_Menu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BaconSandwich2 {
+            get {
+                object obj = ResourceManager.GetObject("BaconSandwich2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BlueberryMuffin {
             get {
                 object obj = ResourceManager.GetObject("BlueberryMuffin", resourceCulture);
@@ -143,9 +153,29 @@ namespace VP_Proekt_Starbucks_Menu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CaramelFrappuccino {
+            get {
+                object obj = ResourceManager.GetObject("CaramelFrappuccino", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ChocolateFrappuccino {
             get {
                 object obj = ResourceManager.GetObject("ChocolateFrappuccino", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ChocolateFrappuccino2 {
+            get {
+                object obj = ResourceManager.GetObject("ChocolateFrappuccino2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -406,6 +436,16 @@ namespace VP_Proekt_Starbucks_Menu.Properties {
         internal static System.Drawing.Bitmap muffin2 {
             get {
                 object obj = ResourceManager.GetObject("muffin2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap S_moresFrappuccino {
+            get {
+                object obj = ResourceManager.GetObject("S\'moresFrappuccino", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

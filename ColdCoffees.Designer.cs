@@ -35,10 +35,10 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnBrew = new System.Windows.Forms.Button();
-            this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.btnBrew = new System.Windows.Forms.Button();
             this.lblPriceBrew = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.cbBrew = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -156,6 +156,16 @@
             this.panel1.Size = new System.Drawing.Size(236, 466);
             this.panel1.TabIndex = 28;
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(71, 390);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(19, 20);
+            this.label11.TabIndex = 13;
+            this.label11.Text = "$";
+            // 
             // btnBrew
             // 
             this.btnBrew.BackColor = System.Drawing.Color.LightGray;
@@ -168,6 +178,16 @@
             this.btnBrew.UseVisualStyleBackColor = false;
             this.btnBrew.Click += new System.EventHandler(this.btnBrew_Click_1);
             // 
+            // lblPriceBrew
+            // 
+            this.lblPriceBrew.AutoSize = true;
+            this.lblPriceBrew.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPriceBrew.Location = new System.Drawing.Point(95, 390);
+            this.lblPriceBrew.Name = "lblPriceBrew";
+            this.lblPriceBrew.Size = new System.Drawing.Size(44, 20);
+            this.lblPriceBrew.TabIndex = 9;
+            this.lblPriceBrew.Text = "2.20";
+            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -177,26 +197,6 @@
             this.label10.Size = new System.Drawing.Size(50, 18);
             this.label10.TabIndex = 8;
             this.label10.Text = "Price: ";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(60, 391);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(19, 20);
-            this.label11.TabIndex = 13;
-            this.label11.Text = "$";
-            // 
-            // lblPriceBrew
-            // 
-            this.lblPriceBrew.AutoSize = true;
-            this.lblPriceBrew.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPriceBrew.Location = new System.Drawing.Point(77, 390);
-            this.lblPriceBrew.Name = "lblPriceBrew";
-            this.lblPriceBrew.Size = new System.Drawing.Size(44, 20);
-            this.lblPriceBrew.TabIndex = 9;
-            this.lblPriceBrew.Text = "2.20";
             // 
             // cbBrew
             // 
@@ -287,7 +287,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(60, 391);
+            this.label1.Location = new System.Drawing.Point(71, 390);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(19, 20);
             this.label1.TabIndex = 13;
@@ -309,7 +309,7 @@
             // 
             this.lblPriceAmericano.AutoSize = true;
             this.lblPriceAmericano.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPriceAmericano.Location = new System.Drawing.Point(77, 390);
+            this.lblPriceAmericano.Location = new System.Drawing.Point(96, 390);
             this.lblPriceAmericano.Name = "lblPriceAmericano";
             this.lblPriceAmericano.Size = new System.Drawing.Size(44, 20);
             this.lblPriceAmericano.TabIndex = 9;
@@ -402,7 +402,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(60, 391);
+            this.label2.Location = new System.Drawing.Point(71, 390);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(19, 20);
             this.label2.TabIndex = 13;
@@ -424,7 +424,7 @@
             // 
             this.lblPriceFlatWhite.AutoSize = true;
             this.lblPriceFlatWhite.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPriceFlatWhite.Location = new System.Drawing.Point(77, 390);
+            this.lblPriceFlatWhite.Location = new System.Drawing.Point(96, 390);
             this.lblPriceFlatWhite.Name = "lblPriceFlatWhite";
             this.lblPriceFlatWhite.Size = new System.Drawing.Size(44, 20);
             this.lblPriceFlatWhite.TabIndex = 9;

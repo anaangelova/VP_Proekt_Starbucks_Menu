@@ -252,5 +252,14 @@
   <ItemGroup>
     <None Include="Resources\VeganBagel.JPG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChocolateFrappuccino2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S%27moresFrappuccino.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CaramelFrappuccino.JPG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -77,5 +77,10 @@ namespace VP_Proekt_Starbucks_Menu
         {
 
         }
+
+        private void lblBagel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

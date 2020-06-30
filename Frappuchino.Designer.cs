@@ -31,106 +31,182 @@
             this.lblChocolate = new System.Windows.Forms.Label();
             this.lblSmores = new System.Windows.Forms.Label();
             this.lblCaramel = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.nudChocolate = new System.Windows.Forms.NumericUpDown();
-            this.nudSmores = new System.Windows.Forms.NumericUpDown();
-            this.nudCaramel = new System.Windows.Forms.NumericUpDown();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.cbSizeChocolate = new System.Windows.Forms.ComboBox();
-            this.cbSizeSmores = new System.Windows.Forms.ComboBox();
-            this.cbSizeCaramel = new System.Windows.Forms.ComboBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.lblPriceChocolate = new System.Windows.Forms.Label();
-            this.lblPriceSmores = new System.Windows.Forms.Label();
-            this.lblPriceCaramel = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
             this.btnOrderChoco = new System.Windows.Forms.Button();
-            this.btnOrderSmores = new System.Windows.Forms.Button();
-            this.btnOrderCaramel = new System.Windows.Forms.Button();
+            this.lblPriceChocolate = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.cbSizeChocolate = new System.Windows.Forms.ComboBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.nudChocolate = new System.Windows.Forms.NumericUpDown();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnFinish = new System.Windows.Forms.Button();
-            this.pbSmores = new System.Windows.Forms.PictureBox();
-            this.pbCaramel = new System.Windows.Forms.PictureBox();
-            this.pbChocolate = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnOrderSmores = new System.Windows.Forms.Button();
+            this.lblPriceSmores = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.cbSizeSmores = new System.Windows.Forms.ComboBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.nudSmores = new System.Windows.Forms.NumericUpDown();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnOrderCaramel = new System.Windows.Forms.Button();
+            this.lblPriceCaramel = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.cbSizeCaramel = new System.Windows.Forms.ComboBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.nudCaramel = new System.Windows.Forms.NumericUpDown();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudChocolate)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudSmores)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudCaramel)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbSmores)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbCaramel)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbChocolate)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // lblChocolate
             // 
             this.lblChocolate.AutoSize = true;
-            this.lblChocolate.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblChocolate.Location = new System.Drawing.Point(16, 69);
+            this.lblChocolate.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.lblChocolate.Font = new System.Drawing.Font("Permanent Marker", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblChocolate.ForeColor = System.Drawing.Color.Sienna;
+            this.lblChocolate.Location = new System.Drawing.Point(57, 12);
             this.lblChocolate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblChocolate.Name = "lblChocolate";
-            this.lblChocolate.Size = new System.Drawing.Size(131, 29);
+            this.lblChocolate.Size = new System.Drawing.Size(138, 35);
             this.lblChocolate.TabIndex = 3;
             this.lblChocolate.Text = "Chocolate";
             // 
             // lblSmores
             // 
             this.lblSmores.AutoSize = true;
-            this.lblSmores.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblSmores.Location = new System.Drawing.Point(280, 69);
+            this.lblSmores.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.lblSmores.Font = new System.Drawing.Font("Permanent Marker", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSmores.ForeColor = System.Drawing.Color.Sienna;
+            this.lblSmores.Location = new System.Drawing.Point(69, 12);
             this.lblSmores.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSmores.Name = "lblSmores";
-            this.lblSmores.Size = new System.Drawing.Size(108, 29);
+            this.lblSmores.Size = new System.Drawing.Size(107, 35);
             this.lblSmores.TabIndex = 4;
             this.lblSmores.Text = "S\'mores";
             // 
             // lblCaramel
             // 
             this.lblCaramel.AutoSize = true;
-            this.lblCaramel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblCaramel.Location = new System.Drawing.Point(547, 71);
+            this.lblCaramel.Font = new System.Drawing.Font("Permanent Marker", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCaramel.ForeColor = System.Drawing.Color.Sienna;
+            this.lblCaramel.Location = new System.Drawing.Point(57, 12);
             this.lblCaramel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblCaramel.Name = "lblCaramel";
-            this.lblCaramel.Size = new System.Drawing.Size(111, 29);
+            this.lblCaramel.Size = new System.Drawing.Size(117, 35);
             this.lblCaramel.TabIndex = 5;
             this.lblCaramel.Text = "Caramel";
             // 
-            // label1
+            // panel1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(17, 309);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 17);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Quantity:";
+            this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel1.Controls.Add(this.label11);
+            this.panel1.Controls.Add(this.btnOrderChoco);
+            this.panel1.Controls.Add(this.lblPriceChocolate);
+            this.panel1.Controls.Add(this.label10);
+            this.panel1.Controls.Add(this.cbSizeChocolate);
+            this.panel1.Controls.Add(this.label12);
+            this.panel1.Controls.Add(this.label13);
+            this.panel1.Controls.Add(this.nudChocolate);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.lblChocolate);
+            this.panel1.Location = new System.Drawing.Point(39, 24);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(236, 466);
+            this.panel1.TabIndex = 28;
             // 
-            // label2
+            // label11
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(281, 309);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 17);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Quantity:";
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(71, 390);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(19, 20);
+            this.label11.TabIndex = 13;
+            this.label11.Text = "$";
             // 
-            // label3
+            // btnOrderChoco
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(548, 309);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 17);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Quantity:";
+            this.btnOrderChoco.BackColor = System.Drawing.Color.LightGray;
+            this.btnOrderChoco.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOrderChoco.Location = new System.Drawing.Point(121, 415);
+            this.btnOrderChoco.Name = "btnOrderChoco";
+            this.btnOrderChoco.Size = new System.Drawing.Size(102, 34);
+            this.btnOrderChoco.TabIndex = 10;
+            this.btnOrderChoco.Text = "Add Order";
+            this.btnOrderChoco.UseVisualStyleBackColor = false;
+            this.btnOrderChoco.Click += new System.EventHandler(this.btnOrderChoco_Click_1);
+            // 
+            // lblPriceChocolate
+            // 
+            this.lblPriceChocolate.AutoSize = true;
+            this.lblPriceChocolate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPriceChocolate.Location = new System.Drawing.Point(96, 390);
+            this.lblPriceChocolate.Name = "lblPriceChocolate";
+            this.lblPriceChocolate.Size = new System.Drawing.Size(44, 20);
+            this.lblPriceChocolate.TabIndex = 9;
+            this.lblPriceChocolate.Text = "3.80";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(21, 392);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(50, 18);
+            this.label10.TabIndex = 8;
+            this.label10.Text = "Price: ";
+            // 
+            // cbSizeChocolate
+            // 
+            this.cbSizeChocolate.FormattingEnabled = true;
+            this.cbSizeChocolate.Items.AddRange(new object[] {
+            "Tall",
+            "Grande",
+            "Venti"});
+            this.cbSizeChocolate.Location = new System.Drawing.Point(24, 348);
+            this.cbSizeChocolate.Name = "cbSizeChocolate";
+            this.cbSizeChocolate.Size = new System.Drawing.Size(171, 24);
+            this.cbSizeChocolate.TabIndex = 7;
+            this.cbSizeChocolate.SelectedIndexChanged += new System.EventHandler(this.cbSizeChocolate_SelectedIndexChanged);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(21, 327);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(41, 18);
+            this.label12.TabIndex = 6;
+            this.label12.Text = "Size:";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(24, 281);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(66, 18);
+            this.label13.TabIndex = 5;
+            this.label13.Text = "Quantity:";
             // 
             // nudChocolate
             // 
-            this.nudChocolate.Location = new System.Drawing.Point(16, 330);
-            this.nudChocolate.Margin = new System.Windows.Forms.Padding(4);
+            this.nudChocolate.Location = new System.Drawing.Point(24, 302);
             this.nudChocolate.Maximum = new decimal(new int[] {
             10,
             0,
@@ -142,18 +218,132 @@
             0,
             0});
             this.nudChocolate.Name = "nudChocolate";
-            this.nudChocolate.Size = new System.Drawing.Size(200, 22);
-            this.nudChocolate.TabIndex = 9;
+            this.nudChocolate.Size = new System.Drawing.Size(171, 22);
+            this.nudChocolate.TabIndex = 4;
             this.nudChocolate.Value = new decimal(new int[] {
             1,
             0,
             0,
             0});
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.ChocolateFrappuccino2;
+            this.pictureBox1.Location = new System.Drawing.Point(24, 59);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(190, 201);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnFinish
+            // 
+            this.btnFinish.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btnFinish.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFinish.Location = new System.Drawing.Point(202, 506);
+            this.btnFinish.Name = "btnFinish";
+            this.btnFinish.Size = new System.Drawing.Size(477, 37);
+            this.btnFinish.TabIndex = 29;
+            this.btnFinish.Text = "Finish";
+            this.btnFinish.UseVisualStyleBackColor = false;
+            this.btnFinish.Click += new System.EventHandler(this.btnFinish_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.btnOrderSmores);
+            this.panel2.Controls.Add(this.lblPriceSmores);
+            this.panel2.Controls.Add(this.label7);
+            this.panel2.Controls.Add(this.cbSizeSmores);
+            this.panel2.Controls.Add(this.label14);
+            this.panel2.Controls.Add(this.label15);
+            this.panel2.Controls.Add(this.nudSmores);
+            this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.Controls.Add(this.lblSmores);
+            this.panel2.Location = new System.Drawing.Point(320, 24);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(236, 466);
+            this.panel2.TabIndex = 29;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(71, 390);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(19, 20);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "$";
+            // 
+            // btnOrderSmores
+            // 
+            this.btnOrderSmores.BackColor = System.Drawing.Color.LightGray;
+            this.btnOrderSmores.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOrderSmores.Location = new System.Drawing.Point(121, 415);
+            this.btnOrderSmores.Name = "btnOrderSmores";
+            this.btnOrderSmores.Size = new System.Drawing.Size(102, 34);
+            this.btnOrderSmores.TabIndex = 10;
+            this.btnOrderSmores.Text = "Add Order";
+            this.btnOrderSmores.UseVisualStyleBackColor = false;
+            this.btnOrderSmores.Click += new System.EventHandler(this.btnOrderSmores_Click);
+            // 
+            // lblPriceSmores
+            // 
+            this.lblPriceSmores.AutoSize = true;
+            this.lblPriceSmores.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPriceSmores.Location = new System.Drawing.Point(96, 390);
+            this.lblPriceSmores.Name = "lblPriceSmores";
+            this.lblPriceSmores.Size = new System.Drawing.Size(44, 20);
+            this.lblPriceSmores.TabIndex = 9;
+            this.lblPriceSmores.Text = "4.10";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(21, 392);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(50, 18);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "Price: ";
+            // 
+            // cbSizeSmores
+            // 
+            this.cbSizeSmores.FormattingEnabled = true;
+            this.cbSizeSmores.Items.AddRange(new object[] {
+            "Tall",
+            "Grande",
+            "Venti"});
+            this.cbSizeSmores.Location = new System.Drawing.Point(24, 348);
+            this.cbSizeSmores.Name = "cbSizeSmores";
+            this.cbSizeSmores.Size = new System.Drawing.Size(171, 24);
+            this.cbSizeSmores.TabIndex = 7;
+            this.cbSizeSmores.SelectedIndexChanged += new System.EventHandler(this.cbSizeSmores_SelectedIndexChanged);
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(21, 327);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(41, 18);
+            this.label14.TabIndex = 6;
+            this.label14.Text = "Size:";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(24, 281);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(66, 18);
+            this.label15.TabIndex = 5;
+            this.label15.Text = "Quantity:";
+            // 
             // nudSmores
             // 
-            this.nudSmores.Location = new System.Drawing.Point(285, 330);
-            this.nudSmores.Margin = new System.Windows.Forms.Padding(4);
+            this.nudSmores.Location = new System.Drawing.Point(24, 302);
             this.nudSmores.Maximum = new decimal(new int[] {
             10,
             0,
@@ -165,18 +355,120 @@
             0,
             0});
             this.nudSmores.Name = "nudSmores";
-            this.nudSmores.Size = new System.Drawing.Size(200, 22);
-            this.nudSmores.TabIndex = 10;
+            this.nudSmores.Size = new System.Drawing.Size(171, 22);
+            this.nudSmores.TabIndex = 4;
             this.nudSmores.Value = new decimal(new int[] {
             1,
             0,
             0,
             0});
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.S_moresFrappuccino;
+            this.pictureBox2.Location = new System.Drawing.Point(24, 59);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(190, 201);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel3.Controls.Add(this.label2);
+            this.panel3.Controls.Add(this.btnOrderCaramel);
+            this.panel3.Controls.Add(this.lblPriceCaramel);
+            this.panel3.Controls.Add(this.lblCaramel);
+            this.panel3.Controls.Add(this.label5);
+            this.panel3.Controls.Add(this.cbSizeCaramel);
+            this.panel3.Controls.Add(this.label8);
+            this.panel3.Controls.Add(this.label16);
+            this.panel3.Controls.Add(this.nudCaramel);
+            this.panel3.Controls.Add(this.pictureBox3);
+            this.panel3.Location = new System.Drawing.Point(601, 24);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(236, 466);
+            this.panel3.TabIndex = 30;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(71, 390);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(19, 20);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "$";
+            // 
+            // btnOrderCaramel
+            // 
+            this.btnOrderCaramel.BackColor = System.Drawing.Color.LightGray;
+            this.btnOrderCaramel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOrderCaramel.Location = new System.Drawing.Point(121, 415);
+            this.btnOrderCaramel.Name = "btnOrderCaramel";
+            this.btnOrderCaramel.Size = new System.Drawing.Size(102, 34);
+            this.btnOrderCaramel.TabIndex = 10;
+            this.btnOrderCaramel.Text = "Add Order";
+            this.btnOrderCaramel.UseVisualStyleBackColor = false;
+            this.btnOrderCaramel.Click += new System.EventHandler(this.btnOrderCaramel_Click);
+            // 
+            // lblPriceCaramel
+            // 
+            this.lblPriceCaramel.AutoSize = true;
+            this.lblPriceCaramel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPriceCaramel.Location = new System.Drawing.Point(96, 390);
+            this.lblPriceCaramel.Name = "lblPriceCaramel";
+            this.lblPriceCaramel.Size = new System.Drawing.Size(44, 20);
+            this.lblPriceCaramel.TabIndex = 9;
+            this.lblPriceCaramel.Text = "3.90";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(21, 392);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(50, 18);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Price: ";
+            // 
+            // cbSizeCaramel
+            // 
+            this.cbSizeCaramel.FormattingEnabled = true;
+            this.cbSizeCaramel.Items.AddRange(new object[] {
+            "Tall",
+            "Grande",
+            "Venti"});
+            this.cbSizeCaramel.Location = new System.Drawing.Point(24, 348);
+            this.cbSizeCaramel.Name = "cbSizeCaramel";
+            this.cbSizeCaramel.Size = new System.Drawing.Size(171, 24);
+            this.cbSizeCaramel.TabIndex = 7;
+            this.cbSizeCaramel.SelectedIndexChanged += new System.EventHandler(this.cbSizeCaramel_SelectedIndexChanged);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(21, 327);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(41, 18);
+            this.label8.TabIndex = 6;
+            this.label8.Text = "Size:";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(24, 281);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(66, 18);
+            this.label16.TabIndex = 5;
+            this.label16.Text = "Quantity:";
+            // 
             // nudCaramel
             // 
-            this.nudCaramel.Location = new System.Drawing.Point(552, 329);
-            this.nudCaramel.Margin = new System.Windows.Forms.Padding(4);
+            this.nudCaramel.Location = new System.Drawing.Point(24, 302);
             this.nudCaramel.Maximum = new decimal(new int[] {
             10,
             0,
@@ -188,302 +480,90 @@
             0,
             0});
             this.nudCaramel.Name = "nudCaramel";
-            this.nudCaramel.Size = new System.Drawing.Size(200, 22);
-            this.nudCaramel.TabIndex = 11;
+            this.nudCaramel.Size = new System.Drawing.Size(171, 22);
+            this.nudCaramel.TabIndex = 4;
             this.nudCaramel.Value = new decimal(new int[] {
             1,
             0,
             0,
             0});
             // 
-            // label4
+            // pictureBox3
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(17, 374);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(39, 17);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "Size:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(281, 374);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(39, 17);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "Size:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(548, 374);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(39, 17);
-            this.label6.TabIndex = 14;
-            this.label6.Text = "Size:";
-            // 
-            // cbSizeChocolate
-            // 
-            this.cbSizeChocolate.FormattingEnabled = true;
-            this.cbSizeChocolate.Items.AddRange(new object[] {
-            "Tall",
-            "Grande",
-            "Venti"});
-            this.cbSizeChocolate.Location = new System.Drawing.Point(16, 394);
-            this.cbSizeChocolate.Margin = new System.Windows.Forms.Padding(4);
-            this.cbSizeChocolate.Name = "cbSizeChocolate";
-            this.cbSizeChocolate.Size = new System.Drawing.Size(199, 24);
-            this.cbSizeChocolate.TabIndex = 15;
-            this.cbSizeChocolate.SelectedIndexChanged += new System.EventHandler(this.cbSizeChocolate_SelectedIndexChanged);
-            // 
-            // cbSizeSmores
-            // 
-            this.cbSizeSmores.FormattingEnabled = true;
-            this.cbSizeSmores.Items.AddRange(new object[] {
-            "Tall",
-            "Grande",
-            "Venti"});
-            this.cbSizeSmores.Location = new System.Drawing.Point(285, 394);
-            this.cbSizeSmores.Margin = new System.Windows.Forms.Padding(4);
-            this.cbSizeSmores.Name = "cbSizeSmores";
-            this.cbSizeSmores.Size = new System.Drawing.Size(199, 24);
-            this.cbSizeSmores.TabIndex = 16;
-            this.cbSizeSmores.SelectedIndexChanged += new System.EventHandler(this.cbSizeSmores_SelectedIndexChanged);
-            // 
-            // cbSizeCaramel
-            // 
-            this.cbSizeCaramel.FormattingEnabled = true;
-            this.cbSizeCaramel.Items.AddRange(new object[] {
-            "Tall",
-            "Grande",
-            "Venti"});
-            this.cbSizeCaramel.Location = new System.Drawing.Point(552, 394);
-            this.cbSizeCaramel.Margin = new System.Windows.Forms.Padding(4);
-            this.cbSizeCaramel.Name = "cbSizeCaramel";
-            this.cbSizeCaramel.Size = new System.Drawing.Size(199, 24);
-            this.cbSizeCaramel.TabIndex = 17;
-            this.cbSizeCaramel.SelectedIndexChanged += new System.EventHandler(this.cbSizeCaramel_SelectedIndexChanged);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(17, 434);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(56, 17);
-            this.label7.TabIndex = 18;
-            this.label7.Text = "Price: $";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(281, 434);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(56, 17);
-            this.label8.TabIndex = 19;
-            this.label8.Text = "Price: $";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(548, 434);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(56, 17);
-            this.label9.TabIndex = 20;
-            this.label9.Text = "Price: $";
-            // 
-            // lblPriceChocolate
-            // 
-            this.lblPriceChocolate.AutoSize = true;
-            this.lblPriceChocolate.Location = new System.Drawing.Point(71, 434);
-            this.lblPriceChocolate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblPriceChocolate.Name = "lblPriceChocolate";
-            this.lblPriceChocolate.Size = new System.Drawing.Size(36, 17);
-            this.lblPriceChocolate.TabIndex = 21;
-            this.lblPriceChocolate.Text = "3,80";
-            // 
-            // lblPriceSmores
-            // 
-            this.lblPriceSmores.AutoSize = true;
-            this.lblPriceSmores.Location = new System.Drawing.Point(336, 434);
-            this.lblPriceSmores.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblPriceSmores.Name = "lblPriceSmores";
-            this.lblPriceSmores.Size = new System.Drawing.Size(36, 17);
-            this.lblPriceSmores.TabIndex = 22;
-            this.lblPriceSmores.Text = "4,10";
-            // 
-            // lblPriceCaramel
-            // 
-            this.lblPriceCaramel.AutoSize = true;
-            this.lblPriceCaramel.Location = new System.Drawing.Point(601, 434);
-            this.lblPriceCaramel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblPriceCaramel.Name = "lblPriceCaramel";
-            this.lblPriceCaramel.Size = new System.Drawing.Size(36, 17);
-            this.lblPriceCaramel.TabIndex = 23;
-            this.lblPriceCaramel.Text = "3,90";
-            // 
-            // btnOrderChoco
-            // 
-            this.btnOrderChoco.Location = new System.Drawing.Point(16, 454);
-            this.btnOrderChoco.Margin = new System.Windows.Forms.Padding(4);
-            this.btnOrderChoco.Name = "btnOrderChoco";
-            this.btnOrderChoco.Size = new System.Drawing.Size(200, 28);
-            this.btnOrderChoco.TabIndex = 24;
-            this.btnOrderChoco.Text = "Order";
-            this.btnOrderChoco.UseVisualStyleBackColor = true;
-            this.btnOrderChoco.Click += new System.EventHandler(this.btnOrderChoco_Click);
-            // 
-            // btnOrderSmores
-            // 
-            this.btnOrderSmores.Location = new System.Drawing.Point(285, 454);
-            this.btnOrderSmores.Margin = new System.Windows.Forms.Padding(4);
-            this.btnOrderSmores.Name = "btnOrderSmores";
-            this.btnOrderSmores.Size = new System.Drawing.Size(200, 28);
-            this.btnOrderSmores.TabIndex = 25;
-            this.btnOrderSmores.Text = "Order";
-            this.btnOrderSmores.UseVisualStyleBackColor = true;
-            this.btnOrderSmores.Click += new System.EventHandler(this.btnOrderSmores_Click);
-            // 
-            // btnOrderCaramel
-            // 
-            this.btnOrderCaramel.Location = new System.Drawing.Point(552, 454);
-            this.btnOrderCaramel.Margin = new System.Windows.Forms.Padding(4);
-            this.btnOrderCaramel.Name = "btnOrderCaramel";
-            this.btnOrderCaramel.Size = new System.Drawing.Size(200, 28);
-            this.btnOrderCaramel.TabIndex = 26;
-            this.btnOrderCaramel.Text = "Order";
-            this.btnOrderCaramel.UseVisualStyleBackColor = true;
-            this.btnOrderCaramel.Click += new System.EventHandler(this.btnOrderCaramel_Click);
-            // 
-            // btnFinish
-            // 
-            this.btnFinish.Location = new System.Drawing.Point(92, 497);
-            this.btnFinish.Margin = new System.Windows.Forms.Padding(4);
-            this.btnFinish.Name = "btnFinish";
-            this.btnFinish.Size = new System.Drawing.Size(571, 28);
-            this.btnFinish.TabIndex = 27;
-            this.btnFinish.Text = "Finish Order";
-            this.btnFinish.UseVisualStyleBackColor = true;
-            this.btnFinish.Click += new System.EventHandler(this.btnFinish_Click);
-            // 
-            // pbSmores
-            // 
-            this.pbSmores.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.FRAPPsMORESS;
-            this.pbSmores.Location = new System.Drawing.Point(285, 105);
-            this.pbSmores.Margin = new System.Windows.Forms.Padding(4);
-            this.pbSmores.Name = "pbSmores";
-            this.pbSmores.Size = new System.Drawing.Size(150, 150);
-            this.pbSmores.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pbSmores.TabIndex = 2;
-            this.pbSmores.TabStop = false;
-            // 
-            // pbCaramel
-            // 
-            this.pbCaramel.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.frappCaramel;
-            this.pbCaramel.Location = new System.Drawing.Point(552, 105);
-            this.pbCaramel.Margin = new System.Windows.Forms.Padding(4);
-            this.pbCaramel.Name = "pbCaramel";
-            this.pbCaramel.Size = new System.Drawing.Size(150, 159);
-            this.pbCaramel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pbCaramel.TabIndex = 1;
-            this.pbCaramel.TabStop = false;
-            // 
-            // pbChocolate
-            // 
-            this.pbChocolate.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.frappChocolate;
-            this.pbChocolate.Location = new System.Drawing.Point(16, 105);
-            this.pbChocolate.Margin = new System.Windows.Forms.Padding(4);
-            this.pbChocolate.Name = "pbChocolate";
-            this.pbChocolate.Size = new System.Drawing.Size(150, 152);
-            this.pbChocolate.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pbChocolate.TabIndex = 0;
-            this.pbChocolate.TabStop = false;
-            this.pbChocolate.Click += new System.EventHandler(this.pbChocolate_Click);
+            this.pictureBox3.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.CaramelFrappuccino;
+            this.pictureBox3.Location = new System.Drawing.Point(24, 59);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(190, 201);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
             // 
             // Frappuchino
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(791, 540);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ClientSize = new System.Drawing.Size(875, 564);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.btnFinish);
-            this.Controls.Add(this.btnOrderCaramel);
-            this.Controls.Add(this.btnOrderSmores);
-            this.Controls.Add(this.btnOrderChoco);
-            this.Controls.Add(this.lblPriceCaramel);
-            this.Controls.Add(this.lblPriceSmores);
-            this.Controls.Add(this.lblPriceChocolate);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.cbSizeCaramel);
-            this.Controls.Add(this.cbSizeSmores);
-            this.Controls.Add(this.cbSizeChocolate);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.nudCaramel);
-            this.Controls.Add(this.nudSmores);
-            this.Controls.Add(this.nudChocolate);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.lblCaramel);
-            this.Controls.Add(this.lblSmores);
-            this.Controls.Add(this.lblChocolate);
-            this.Controls.Add(this.pbSmores);
-            this.Controls.Add(this.pbCaramel);
-            this.Controls.Add(this.pbChocolate);
+            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frappuchino";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frappuchino";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudChocolate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudSmores)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudCaramel)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbSmores)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbCaramel)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbChocolate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pbChocolate;
-        private System.Windows.Forms.PictureBox pbCaramel;
-        private System.Windows.Forms.PictureBox pbSmores;
         private System.Windows.Forms.Label lblChocolate;
         private System.Windows.Forms.Label lblSmores;
         private System.Windows.Forms.Label lblCaramel;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.NumericUpDown nudChocolate;
-        private System.Windows.Forms.NumericUpDown nudSmores;
-        private System.Windows.Forms.NumericUpDown nudCaramel;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox cbSizeChocolate;
-        private System.Windows.Forms.ComboBox cbSizeSmores;
-        private System.Windows.Forms.ComboBox cbSizeCaramel;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label lblPriceChocolate;
-        private System.Windows.Forms.Label lblPriceSmores;
-        private System.Windows.Forms.Label lblPriceCaramel;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button btnOrderChoco;
-        private System.Windows.Forms.Button btnOrderSmores;
-        private System.Windows.Forms.Button btnOrderCaramel;
+        private System.Windows.Forms.Label lblPriceChocolate;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.ComboBox cbSizeChocolate;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.NumericUpDown nudChocolate;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnFinish;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnOrderSmores;
+        private System.Windows.Forms.Label lblPriceSmores;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ComboBox cbSizeSmores;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.NumericUpDown nudSmores;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblPriceCaramel;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ComboBox cbSizeCaramel;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.NumericUpDown nudCaramel;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Button btnOrderCaramel;
+        private System.Windows.Forms.Label label17;
     }
 }

@@ -129,7 +129,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(60, 391);
+            this.label11.Location = new System.Drawing.Point(71, 390);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(19, 20);
             this.label11.TabIndex = 13;
@@ -151,7 +151,7 @@
             // 
             this.lblPricePineapple.AutoSize = true;
             this.lblPricePineapple.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPricePineapple.Location = new System.Drawing.Point(77, 390);
+            this.lblPricePineapple.Location = new System.Drawing.Point(96, 390);
             this.lblPricePineapple.Name = "lblPricePineapple";
             this.lblPricePineapple.Size = new System.Drawing.Size(44, 20);
             this.lblPricePineapple.TabIndex = 9;
@@ -255,7 +255,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(58, 390);
+            this.label10.Location = new System.Drawing.Point(66, 390);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(19, 20);
             this.label10.TabIndex = 12;
@@ -277,7 +277,7 @@
             // 
             this.lblPriceDragon.AutoSize = true;
             this.lblPriceDragon.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPriceDragon.Location = new System.Drawing.Point(75, 391);
+            this.lblPriceDragon.Location = new System.Drawing.Point(91, 390);
             this.lblPriceDragon.Name = "lblPriceDragon";
             this.lblPriceDragon.Size = new System.Drawing.Size(44, 20);
             this.lblPriceDragon.TabIndex = 10;
@@ -380,7 +380,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(59, 390);
+            this.label12.Location = new System.Drawing.Point(67, 390);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(19, 20);
             this.label12.TabIndex = 14;
@@ -402,7 +402,7 @@
             // 
             this.lblPriceLemonade.AutoSize = true;
             this.lblPriceLemonade.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPriceLemonade.Location = new System.Drawing.Point(76, 390);
+            this.lblPriceLemonade.Location = new System.Drawing.Point(92, 390);
             this.lblPriceLemonade.Name = "lblPriceLemonade";
             this.lblPriceLemonade.Size = new System.Drawing.Size(44, 20);
             this.lblPriceLemonade.TabIndex = 11;
@@ -508,7 +508,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "ColdDrinks";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ColdDrinks";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudPineapple)).EndInit();

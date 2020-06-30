@@ -27,7 +27,13 @@ namespace VP_Proekt_Starbucks_Menu
         private bool btnCaramel = false;
         private bool btnSmores = false;
 
-        private void btnOrderChoco_Click(object sender, EventArgs e)
+
+        private void pbChocolate_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnOrderChoco_Click_1(object sender, EventArgs e)
         {
             btnChoco = true;
 
@@ -35,7 +41,6 @@ namespace VP_Proekt_Starbucks_Menu
             MessageBoxButtons buttons = MessageBoxButtons.OK;
             string caption = "Order successful!";
             MessageBox.Show(notification, caption, buttons);
-            
         }
 
         private void btnOrderSmores_Click(object sender, EventArgs e)
@@ -60,7 +65,7 @@ namespace VP_Proekt_Starbucks_Menu
 
         private void btnFinish_Click(object sender, EventArgs e)
         {
-            if(btnChoco)
+            if (btnChoco)
             {
                 float price = float.Parse(lblPriceChocolate.Text);
                 narachka.Add(new Order(lblChocolate.Text, cbSizeChocolate.SelectedItem.ToString(), (int)nudChocolate.Value, price));
@@ -99,7 +104,7 @@ namespace VP_Proekt_Starbucks_Menu
         {
             if (cbSizeSmores.SelectedIndex == 0)
             {
-                lblPriceSmores.Text = "4.30";
+                lblPriceSmores.Text = "4.10";
             }
             else if (cbSizeSmores.SelectedIndex == 1)
             {
@@ -127,12 +132,6 @@ namespace VP_Proekt_Starbucks_Menu
                 lblPriceCaramel.Text = "5.60";
             }
             else lblPriceCaramel.Text = "";
-
-        }
-
-        private void pbChocolate_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

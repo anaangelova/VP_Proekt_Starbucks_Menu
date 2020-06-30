@@ -38,6 +38,7 @@
             this.nudTM = new System.Windows.Forms.NumericUpDown();
             this.label7 = new System.Windows.Forms.Label();
             this.lblTM = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -47,6 +48,7 @@
             this.nudImpossible = new System.Windows.Forms.NumericUpDown();
             this.label8 = new System.Windows.Forms.Label();
             this.lblImpossible = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -57,17 +59,15 @@
             this.label9 = new System.Windows.Forms.Label();
             this.lblBacon = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudTM)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudImpossible)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudBacon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnClose
@@ -87,7 +87,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(19, 276);
+            this.label10.Location = new System.Drawing.Point(13, 276);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(199, 45);
             this.label10.TabIndex = 12;
@@ -116,7 +116,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(58, 390);
+            this.label1.Location = new System.Drawing.Point(66, 390);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(19, 20);
             this.label1.TabIndex = 12;
@@ -138,7 +138,7 @@
             // 
             this.lblPriceTM.AutoSize = true;
             this.lblPriceTM.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPriceTM.Location = new System.Drawing.Point(75, 392);
+            this.lblPriceTM.Location = new System.Drawing.Point(91, 390);
             this.lblPriceTM.Name = "lblPriceTM";
             this.lblPriceTM.Size = new System.Drawing.Size(44, 20);
             this.lblPriceTM.TabIndex = 10;
@@ -189,13 +189,23 @@
             // lblTM
             // 
             this.lblTM.AutoSize = true;
-            this.lblTM.Font = new System.Drawing.Font("Permanent Marker", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTM.Font = new System.Drawing.Font("Permanent Marker", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTM.ForeColor = System.Drawing.Color.Sienna;
-            this.lblTM.Location = new System.Drawing.Point(8, 20);
+            this.lblTM.Location = new System.Drawing.Point(11, 21);
             this.lblTM.Name = "lblTM";
-            this.lblTM.Size = new System.Drawing.Size(225, 28);
+            this.lblTM.Size = new System.Drawing.Size(209, 28);
             this.lblTM.TabIndex = 4;
             this.lblTM.Text = "TomatoMozzarella";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.Tomato_Mozzarella2;
+            this.pictureBox1.Location = new System.Drawing.Point(22, 61);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(190, 201);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // panel2
             // 
@@ -218,7 +228,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(58, 390);
+            this.label2.Location = new System.Drawing.Point(66, 390);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(19, 20);
             this.label2.TabIndex = 12;
@@ -229,7 +239,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(19, 276);
+            this.label11.Location = new System.Drawing.Point(13, 276);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(180, 45);
             this.label11.TabIndex = 13;
@@ -252,7 +262,7 @@
             // 
             this.lblPriceImpossible.AutoSize = true;
             this.lblPriceImpossible.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPriceImpossible.Location = new System.Drawing.Point(75, 391);
+            this.lblPriceImpossible.Location = new System.Drawing.Point(91, 390);
             this.lblPriceImpossible.Name = "lblPriceImpossible";
             this.lblPriceImpossible.Size = new System.Drawing.Size(44, 20);
             this.lblPriceImpossible.TabIndex = 10;
@@ -303,13 +313,23 @@
             // lblImpossible
             // 
             this.lblImpossible.AutoSize = true;
-            this.lblImpossible.Font = new System.Drawing.Font("Permanent Marker", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblImpossible.Font = new System.Drawing.Font("Permanent Marker", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblImpossible.ForeColor = System.Drawing.Color.Sienna;
-            this.lblImpossible.Location = new System.Drawing.Point(45, 15);
+            this.lblImpossible.Location = new System.Drawing.Point(46, 19);
             this.lblImpossible.Name = "lblImpossible";
-            this.lblImpossible.Size = new System.Drawing.Size(151, 31);
+            this.lblImpossible.Size = new System.Drawing.Size(147, 33);
             this.lblImpossible.TabIndex = 4;
             this.lblImpossible.Text = "Impossible ";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.ImpossibleSandwich1;
+            this.pictureBox2.Location = new System.Drawing.Point(26, 61);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(190, 201);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
             // 
             // panel4
             // 
@@ -333,18 +353,18 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(19, 276);
+            this.label12.Location = new System.Drawing.Point(7, 276);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(205, 45);
+            this.label12.Size = new System.Drawing.Size(186, 45);
             this.label12.TabIndex = 14;
-            this.label12.Text = "Bacon stacked with a fluffy egg patty,\r\ntopped with a creamy melted slice of\r\nsha" +
-    "rp Cheddar, all on croissant bun.";
+            this.label12.Text = "Bacon stacked with a fluffy egg \r\npatty, topped with a slice of sharp\r\nCheddar, a" +
+    "ll on croissant bun.";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(58, 390);
+            this.label3.Location = new System.Drawing.Point(66, 390);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(19, 20);
             this.label3.TabIndex = 12;
@@ -366,7 +386,7 @@
             // 
             this.lblPriceBacon.AutoSize = true;
             this.lblPriceBacon.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPriceBacon.Location = new System.Drawing.Point(75, 390);
+            this.lblPriceBacon.Location = new System.Drawing.Point(91, 390);
             this.lblPriceBacon.Name = "lblPriceBacon";
             this.lblPriceBacon.Size = new System.Drawing.Size(44, 20);
             this.lblPriceBacon.TabIndex = 10;
@@ -418,11 +438,11 @@
             // lblBacon
             // 
             this.lblBacon.AutoSize = true;
-            this.lblBacon.Font = new System.Drawing.Font("Permanent Marker", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBacon.Font = new System.Drawing.Font("Permanent Marker", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBacon.ForeColor = System.Drawing.Color.Sienna;
-            this.lblBacon.Location = new System.Drawing.Point(81, 16);
+            this.lblBacon.Location = new System.Drawing.Point(73, 19);
             this.lblBacon.Name = "lblBacon";
-            this.lblBacon.Size = new System.Drawing.Size(84, 31);
+            this.lblBacon.Size = new System.Drawing.Size(83, 33);
             this.lblBacon.TabIndex = 4;
             this.lblBacon.Text = "Bacon";
             // 
@@ -435,26 +455,6 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox3.TabIndex = 1;
             this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.ImpossibleSandwich1;
-            this.pictureBox2.Location = new System.Drawing.Point(26, 61);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(190, 201);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.Tomato_Mozzarella2;
-            this.pictureBox1.Location = new System.Drawing.Point(22, 61);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(190, 201);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
             // 
             // Sandwiches
             // 
@@ -473,15 +473,15 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudTM)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudImpossible)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudBacon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
