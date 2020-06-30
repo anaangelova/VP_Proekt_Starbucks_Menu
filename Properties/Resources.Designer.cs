@@ -433,9 +433,39 @@ namespace VP_Proekt_Starbucks_Menu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LatteCaffe21 {
+            get {
+                object obj = ResourceManager.GetObject("LatteCaffe21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap LatteCaffe3 {
             get {
                 object obj = ResourceManager.GetObject("LatteCaffe3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LatteCaffe4 {
+            get {
+                object obj = ResourceManager.GetObject("LatteCaffe4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LatteCaffe5 {
+            get {
+                object obj = ResourceManager.GetObject("LatteCaffe5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

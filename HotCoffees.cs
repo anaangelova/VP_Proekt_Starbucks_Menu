@@ -112,53 +112,17 @@ namespace VP_Proekt_Starbucks_Menu
 
         private void cbSizeEsp_SelectedIndexChanged_1(object sender, EventArgs e)
         {
-            if (cbSizeEsp.SelectedIndex == 0)
-            {
-                lblPriceEsp.Text = "2.20";
-            }
-            else if (cbSizeEsp.SelectedIndex == 1)
-            {
-                lblPriceEsp.Text = "3.10";
-            }
-            else if (cbSizeEsp.SelectedIndex == 2)
-            {
-                lblPriceEsp.Text = "4.10";
-            }
-            else lblPriceEsp.Text = "";
+
         }
 
         private void cbSizeCapp_SelectedIndexChanged_1(object sender, EventArgs e)
         {
-            if (cbSizeCapp.SelectedIndex == 0)
-            {
-                lblPriceCap.Text = "2.80";
-            }
-            else if (cbSizeCapp.SelectedIndex == 1)
-            {
-                lblPriceCap.Text = "3.60";
-            }
-            else if (cbSizeCapp.SelectedIndex == 2)
-            {
-                lblPriceCap.Text = "4.50";
-            }
-            else lblPriceCap.Text = "";
+
         }
 
         private void cbSizeLatte_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cbSizeLatte.SelectedIndex == 0)
-            {
-                lblPrLatte.Text = "3.40";
-            }
-            else if (cbSizeLatte.SelectedIndex == 1)
-            {
-                lblPrLatte.Text = "4.50";
-            }
-            else if (cbSizeLatte.SelectedIndex == 2)
-            {
-                lblPrLatte.Text = "5.50";
-            }
-            else lblPrLatte.Text = "";
+
         }
     }
 }

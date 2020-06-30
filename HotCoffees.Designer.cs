@@ -115,7 +115,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(18, 256);
+            this.label6.Location = new System.Drawing.Point(19, 257);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(59, 17);
@@ -132,10 +132,10 @@
             "Chocolate",
             "Hazelnut",
             "Pumpkin Spice"});
-            this.comboBox1.Location = new System.Drawing.Point(85, 253);
+            this.comboBox1.Location = new System.Drawing.Point(81, 254);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(132, 24);
+            this.comboBox1.Size = new System.Drawing.Size(136, 24);
             this.comboBox1.TabIndex = 11;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -405,7 +405,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(71, 390);
+            this.label2.Location = new System.Drawing.Point(77, 390);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(19, 20);
             this.label2.TabIndex = 13;
@@ -450,7 +450,7 @@
             "Tall",
             "Grande",
             "Venti"});
-            this.cbSizeLatte.Location = new System.Drawing.Point(24, 348);
+            this.cbSizeLatte.Location = new System.Drawing.Point(21, 348);
             this.cbSizeLatte.Name = "cbSizeLatte";
             this.cbSizeLatte.Size = new System.Drawing.Size(171, 24);
             this.cbSizeLatte.TabIndex = 7;
@@ -470,7 +470,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(21, 281);
+            this.label17.Location = new System.Drawing.Point(18, 281);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(66, 18);
             this.label17.TabIndex = 5;
@@ -478,7 +478,7 @@
             // 
             // nudLatte
             // 
-            this.nudLatte.Location = new System.Drawing.Point(24, 302);
+            this.nudLatte.Location = new System.Drawing.Point(21, 302);
             this.nudLatte.Maximum = new decimal(new int[] {
             10,
             0,
@@ -500,10 +500,10 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.LatteCaffe3;
-            this.pictureBox3.Location = new System.Drawing.Point(24, 49);
+            this.pictureBox3.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.LatteCaffe5;
+            this.pictureBox3.Location = new System.Drawing.Point(27, 49);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(190, 190);
+            this.pictureBox3.Size = new System.Drawing.Size(190, 201);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
@@ -511,7 +511,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.CaffeCappuccino;
-            this.pictureBox2.Location = new System.Drawing.Point(24, 59);
+            this.pictureBox2.Location = new System.Drawing.Point(24, 51);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(190, 201);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -521,7 +521,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::VP_Proekt_Starbucks_Menu.Properties.Resources.EspressoShots;
-            this.pictureBox1.Location = new System.Drawing.Point(24, 59);
+            this.pictureBox1.Location = new System.Drawing.Point(24, 52);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(190, 201);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
