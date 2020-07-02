@@ -33,6 +33,7 @@ namespace VP_Proekt_Starbucks_Menu
             tbCash.Enabled = true;
             tbCreditCard.Enabled = false;
             btnFinishPayment.Enabled = false;
+            textBox1.Enabled = false;
 
 
 
@@ -81,6 +82,7 @@ namespace VP_Proekt_Starbucks_Menu
             tbCreditCard.Enabled = true;
             tbCash.Enabled = false;
             btnFinishPayment.Enabled = false;
+            textBox1.Enabled = true;
 
         }
 
@@ -99,13 +101,45 @@ namespace VP_Proekt_Starbucks_Menu
             else
             {
                 errorProvider1.SetError(tbCreditCard, string.Empty);
-                btnFinishPayment.Enabled = true;
+                if (textBox1.Text.Length == 3)
+                {
+                    btnFinishPayment.Enabled = true;
+                }
             }
         }
 
         private void tbCreditCard_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox1.Text == string.Empty)
+            {
+                errorProvider2.SetError(textBox1, "empty");
+            }
+            if (textBox1.Text.Length != 3)
+            {
+
+                errorProvider2.SetError(textBox1, "CVV must be 3 digits!");
+                btnFinishPayment.Enabled = false;
+            }
+            else
+            {
+                errorProvider2.SetError(textBox1, string.Empty);
+                if (tbCreditCard.Text.Length == 16)
+                {
+                    btnFinishPayment.Enabled = true;
+
+                }
+            }
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
+
         }
     }
 }
