@@ -1,4 +1,4 @@
-# VP_Proekt_Starbucks_Menu
+# VP_Project_Starbucks_Menu
 
 **Објаснување на проблемот**
 
